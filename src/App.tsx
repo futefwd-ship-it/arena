@@ -57,6 +57,9 @@ import Location360 from './Pages/Arena/Location360.tsx'
 import Stadia from './Towers/Stadia/Stadia.tsx'
 import Floor_Stadia from './Towers/Stadia/Floor_Stadia.tsx'
 import Unit_Stadia from './Towers/Stadia/Unit_Stadia.tsx'
+import Olympus from './Towers/Olympus/Olympus.tsx'
+import Floor_Olympus from './Towers/Olympus/Floor_olympus.tsx'
+import Unit_Olympus from './Towers/Olympus/Unit_Olympus.tsx'
 function App() {
 
   const location = useLocation();
@@ -126,6 +129,10 @@ function App() {
          <Route path="/arena_stadia" element={<Stadia />} />
         <Route path="/arena_floorstadia/:id" element={<Floor_Stadia/>}/>
         <Route path="/arena_unitstadia/:id" element={<Unit_Stadia/>}/>
+
+        <Route path="/arena_olympus" element={<Olympus />} />
+        <Route path="/arena_floorolympus/:id" element={<Floor_Olympus />} />
+        <Route path="/arena_unitolympus/:id" element={<Unit_Olympus />} />
 
 
 

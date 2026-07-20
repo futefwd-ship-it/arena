@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="w-screen bg-white/50  absolute z-30 top-2  flex items-center justify-between pr-14 lg:px-16 py-4 shadow-md">
+    <header className="w-full bg-white/50 absolute z-30 top-2 left-0 flex items-center justify-between pr-14 lg:px-16 py-4 shadow-md">
       {/* Video Logo */}
       <div className="flex  justify-between w-full">
         <div className="w-1/2 justify-start flex">

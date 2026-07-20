@@ -4,9 +4,9 @@ import { IoReturnUpBackOutline } from "react-icons/io5";
 import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { Tooltip } from 'react-tooltip';
-import { floorsData, description } from '../../data/StadiaData';
+import { floorsData, description } from '../../data/Olympus';
 
-export default function Stadia() {
+export default function Olympus() {
   const navigate = useNavigate();
   const [hoveredFloor, setHoveredFloor] = useState<null>(null);
 
@@ -114,7 +114,7 @@ export default function Stadia() {
             ))}
           </defs> */}
 
-        {floorsData.map((floor: any, index) => {
+        {floorsData.map((floor: any, _index) => {
           const isActive = hoveredFloor?.id === floor.id
           // || selectedRow === index;
           return (
@@ -130,7 +130,7 @@ export default function Stadia() {
                   : "none",
               }}
               // onClick={() => navigate(`/unitplan/${floor.id}`)}
-              onDoubleClick={() => navigate(`/arena_floorstadia/${floor.id}`)}
+              onDoubleClick={() => navigate(`/arena_floorolympus/${floor.id}`)}
               onMouseEnter={() => setHoveredFloor(floor)}
               onMouseLeave={() => setHoveredFloor(null)}
             />
@@ -138,7 +138,7 @@ export default function Stadia() {
         })}
       </svg>
 
-      {floorsData.map((floor: any, index) => {
+      {floorsData.map((floor: any, _index) => {
         return (<Tooltip
           id={`tooltip-${floor.id}`}
           place="right"

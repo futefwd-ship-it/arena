@@ -2,11 +2,11 @@ import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Tooltip, Button, Modal, Box, IconButton, Typography } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
-import { floors } from '../../data/StadiaData';
+import { floors } from '../../data/Olympus';
 
 import WithoutbgHeader from '../../components/WithoutbgHeader';
 
-export default function Floor_Stadia() {
+export default function Floor_Olympus() {
     const { id } = useParams<{ id: string }>();
     const navigate = useNavigate();
 
@@ -87,11 +87,11 @@ export default function Floor_Stadia() {
                 </div>
 
 
-                <div className="mt-3 space-x-2 flex">
+                <div className="mt-3 flex flex-col gap-2 w-full">
                     {Object.values(singleFloor.buttonSettings).map((btn, idx) => (
                         <button
                             key={idx}
-                            className="md:px-5 px-2 py-2 rounded-sm"
+                            className="w-full py-1.5 rounded-md font-normal text-center text-sm text-black transition hover:opacity-90 shadow-sm"
                             style={{ backgroundColor: btn.bgColor }}
                         >
                             {btn.text}
@@ -169,7 +169,7 @@ export default function Floor_Stadia() {
                                     // Toggle selection: if already selected, close it; otherwise, select new.
                                     setSelectedUnit(prev => prev === unit.id ? null : unit.id);
                                 }}
-                                onDoubleClick={() => navigate(`/arena_unitstadia/${unit.id}`)}
+                                onDoubleClick={() => navigate(`/arena_unitolympus/${unit.id}`)}
                             />
                         </Tooltip>
                     ))}
@@ -285,7 +285,7 @@ export default function Floor_Stadia() {
                         <CloseIcon />
                     </IconButton>
                     <img
-                        src={singleFloor.image1}
+                        src={(singleFloor as any).image1}
                         alt={`Floor ${singleFloor.id}`}
                         className="max-h-[90vh] max-w-[90vw] rounded-lg shadow-lg"
                     />
