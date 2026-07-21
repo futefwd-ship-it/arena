@@ -25,41 +25,41 @@ export default function Pavilion() {
 
   const handleBack = () => navigate(-1);
   return (
-    <div className="relative w-full h-screen ">
-      {/* 1. Background Image */}
-      <img
-        src={bgImage}
-        alt="Arena"
-        className="w-full h-full object-contain lg:object-fill"
-      />
+    <div className="relative w-full h-screen flex items-center justify-center bg-[#E8E8E8]">
+      {/* Wrapper locked to exact dimensions matching viewBox (2979x1799) */}
+      <div className="relative w-full max-h-screen aspect-[2979/1799]">
 
-      {/* 2. Single SVG Overlay mapped over the entire image */}
-      <svg
-        viewBox="0 0 2979 1799"
-        // className="absolute inset-0 w-full h-full pointer-events-auto"
-        // preserveAspectRatio="xMidYMid meet"
-        preserveAspectRatio={isLargeScreen ? "xMidYMid slice" : "xMidYMid meet"}
-        className="absolute inset-0 w-full h-screen z-20 pointer-events-auto"
-        aria-hidden="true"
-      >
-        {floorsData.map((floor) => (
-          <polygon
-            key={floor.id}
-            points={floor.polygon}
-            data-tooltip-id={`tooltip-${floor.id}`}
-            /* SVG elements use the 'fill' attribute, NOT Tailwind 'bg-' classes */
-            fill={
-              hoveredId === floor.id
-                ? floor.hoverColor || "rgba(253, 175, 23, 0.5)"
-                : "transparent"
-            }
-            className="cursor-pointer transition-colors duration-300"
-            onMouseEnter={() => setHoveredId(floor.id)}
-            onMouseLeave={() => setHoveredId(null)}
-            onDoubleClick={() => navigate(`/arena_floorstadia/${floor.id}`)}
-          />
-        ))}
-      </svg>
+        <img
+          src={bgImage}
+          alt="Arena"
+          className="absolute top-0 left-0 w-full h-full object-fill pointer-events-none"
+        />
+
+        <svg
+          viewBox="0 0 2979 1815"
+          preserveAspectRatio="none"
+          className="absolute top-0 left-0 w-full h-full z-20 pointer-events-auto"
+        >
+          {floorsData.map((floor) => (
+            <polygon
+              key={floor.id}
+              points={floor.polygon}
+              data-tooltip-id={`tooltip-${floor.id}`}
+              fill={
+                hoveredId === floor.id
+                  ? floor.hoverColor || "rgba(255, 165, 0, 0.6)"
+                  : "rgba(255, 165, 0, 0.1)" // Slight fill so you can verify visibility
+              }
+              // stroke={hoveredId === floor.id ? "#ff9800" : "transparent"}
+              // strokeWidth="2"
+              className="cursor-pointer transition-all duration-300 outline-none focus:outline-none focus:stroke-none"
+              onMouseEnter={() => setHoveredId(floor.id)}
+              onMouseLeave={() => setHoveredId(null)}
+              onDoubleClick={() => navigate(`/arena_floorstadia/${floor.id}`)}
+            />
+          ))}
+        </svg>
+      </div>
 
       {/* 3. Tooltips mapped outside the SVG */}
       {floorsData.map((floor) => (
@@ -100,7 +100,7 @@ export default function Pavilion() {
       </div>
 
 
+    </div>
 
-    </div >
   );
 }
