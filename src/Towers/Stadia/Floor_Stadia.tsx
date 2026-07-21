@@ -39,11 +39,16 @@ export default function Floor_Stadia() {
     }
 
     return (
-        <div className="flex flex-col md:flex-row h-screen w-full p-5 gap-6 overflow-hidden lg:overflow-hidden bg-[#E8E8E8]">
+        <div className="justify-center flex itmes-center w-screen h-screen">
+        <div className="flex flex-col md:flex-row h-screen w-full gap-2
+        bg-[#E8E8E8]">
             <WithoutbgHeader />
             {/* Left Sidebar */}
-            <div className="lg:w-[25%] xl:w-[20%] mt-16 md:mt-5 mb-2 w-full flex flex-col items-center justify-center border-r p-4 overflow-y-auto">
-                <h3 className="bg-gradient-to-r w-full from-[#e3a528] to-[#e8e8e8] border-l-4 border-[#b97f0b] text-[#333] text-center font-semibold mb-5 p-4 text-lg rounded-sm shadow-sm">
+            <div className="md:w-[60%] lg:w-[25%] xl:w-[20%] mt-[30%] md:mt-5 
+            mb-2 w-full flex flex-col items-center justify-center border-r p-4 overflow-y-auto">
+                <h3 className="bg-gradient-to-r w-full from-[#e3a528] to-[#e8e8e8] 
+                border-l-4 border-[#b97f0b] text-[#333] text-center font-semibold mb-5 p-4 
+                text-sm lg:text-lg rounded-sm shadow-sm">
                     FLOOR PLANS
                 </h3>
                 {/* <h3 className="text-xl font-semibold mb-4">  UNITS→ {singleFloor.title}</h3> */}
@@ -55,8 +60,9 @@ export default function Floor_Stadia() {
                     className="bg-[#F0EEEE] p-4 rounded-lg w-full"
                 >
                     {/* <h3 className="text-lg font-semibold mb-4 text-center"> {singleFloor.title}</h3> */}
-                    <h3 className="text-lg font-semibold mb-4   flex items-center gap-4 shadow-md">
-                        <span className="inline-block text-yellow-600 text-2xl font-bold px-2 py-1 rounded-md shadow-md">
+                    <h3 className="text-sm lg:text-lg font-semibold mb-4   flex items-center gap-4 shadow-md">
+                        <span className="inline-block text-yellow-600 text-2xl font-bold px-2 py-1 
+                        rounded-md shadow-md">
                             {singleFloor.id + 1}
                         </span>
                         FLOOR{" "}
@@ -67,11 +73,12 @@ export default function Floor_Stadia() {
                         <ul key={unit.id}>
                             <li
                                 className={`
-                cursor-pointer transition-transform duration-200 mt-2 flex p-1 rounded-sm justify-between border-b pb-2 text-[12px]
-                ${selectedUnit === unit.id ? "scale-105 bg-slate-200" : "scale-100"}
+                cursor-pointer transition-transform duration-200 mt-2 flex p-1 
+                rounded-sm justify-between border-b pb-2 text-[10px] lg:text-[12px]
+                ${hoveredUnit === unit.id ? "scale-105 bg-slate-200" : "scale-100"}
             `}
-                                // onMouseEnter={() => setHoveredUnit(unit.id)}
-                                // onMouseLeave={() => setHoveredUnit(null)}
+                                onMouseEnter={() => setHoveredUnit(unit.id)}
+                                onMouseLeave={() => setHoveredUnit(null)}
                                 onDoubleClick={() => setSelectedUnit(unit.id)}
                             // onClick={(e) => {
                             //     e.stopPropagation();
@@ -87,11 +94,12 @@ export default function Floor_Stadia() {
                 </div>
 
 
-                <div className="mt-3 space-x-2 flex">
+                <div className="mt-3 flex flex-col gap-2 px-2
+                 w-full justify-center items-center">
                     {Object.values(singleFloor.buttonSettings).map((btn, idx) => (
                         <button
                             key={idx}
-                            className="md:px-5 px-2 py-2 rounded-sm"
+                            className="w-full py-2 rounded-sm text-[10px] lg:text-[13px]"
                             style={{ backgroundColor: btn.bgColor }}
                         >
                             {btn.text}
@@ -164,11 +172,11 @@ export default function Floor_Stadia() {
                                     // Toggle selection: if already selected, close it; otherwise, select new.
                                     setHoveredUnit(null);
                                 }}
-                                onClick={(e) => {
-                                    e.stopPropagation();
-                                    // Toggle selection: if already selected, close it; otherwise, select new.
-                                    setSelectedUnit(prev => prev === unit.id ? null : unit.id);
-                                }}
+                                // onClick={(e) => {
+                                //     e.stopPropagation();
+                                //     // Toggle selection: if already selected, close it; otherwise, select new.
+                                //     setSelectedUnit(prev => prev === unit.id ? null : unit.id);
+                                // }}
                                 onDoubleClick={() => navigate(`/arena_unitstadia/${unit.id}`)}
                             />
                         </Tooltip>
@@ -177,7 +185,8 @@ export default function Floor_Stadia() {
             </div>
 
             {/* Right Sidebar */}
-            <div className="lg:w-[20%] w-full flex flex-col items-center justify-center border-r p-4">
+            <div className="md:w-[45%] lg:w-[20%] w-full flex 
+            flex-col items-center justify-center text-[9px] lg:text-lg border-r p-2 lg:p-4">
                 <div className="bg-[#f0eeee] p-4 rounded-sm flex flex-col gap-2">
                     <Button
                         fullWidth
@@ -292,6 +301,6 @@ export default function Floor_Stadia() {
                 </Box>
             </Modal>
 
-        </div>
+        </div></div>
     );
 }

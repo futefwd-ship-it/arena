@@ -9,25 +9,25 @@ import floorunit3 from '../assets/stadia/Typical/iso3D/FLAT 3 ISO.jpg';
 import floorunit4 from '../assets/stadia/Typical/iso3D/FLAT 4 ISO.jpg';
 
 // unit-1 2D and 3D
-import floorunit2D1 from '../assets/stadia/Typical/staticmain2D/FLAT 1.jpg';
+import floorunit2D1 from '../assets/stadia/Typical/staticmain2D/FLAT 11.jpg';
 
 import floorunit2D11 from '../assets/stadia/Typical/static2D/FLAT 1.jpg';
 import floorunit3D1 from '../assets/Towers/type-1/Units/3D/FLAT1.jpg';
 
 // unit-2 2D and 3D
-import floorunit2D2 from '../assets/stadia/Typical/staticmain2D/FLAT 2.jpg';
+import floorunit2D2 from '../assets/stadia/Typical/staticmain2D/FLAT 22.jpg';
 
 import floorunit2D22 from '../assets/stadia/Typical/static2D/FLAT 2.jpg';
 import floorunit3D2 from '../assets/Towers/type-1/Units/3D/FLAT2.jpg';
 
 // unit-3 2D and 3D
-import floorunit2D3 from '../assets/stadia/Typical/staticmain2D/FLAT 3 2D.jpg';
+import floorunit2D3 from '../assets/stadia/Typical/staticmain2D/FLAT 33.jpg';
 
 import floorunit2D33 from '../assets/stadia/Typical/static2D/FLAT 3 2D.jpg';
 import floorunit3D3 from '../assets/Towers/type-1/Units/3D/FLAT3.jpg';
 
 // unit-4 2D and 3D
-import floorunit2D4 from '../assets/stadia/Typical/staticmain2D/FLAT 4 2D.jpg';
+import floorunit2D4 from '../assets/stadia/Typical/staticmain2D/FLAT 44.jpg';
 
 
 import floorunit2D44 from '../assets/stadia/Typical/static2D/FLAT 4 2D.jpg';
@@ -39,89 +39,91 @@ import floorunit3D4 from '../assets/Towers/type-1/Units/3D/FLAT4.jpg';
 import floorImgType2 from '../assets/stadia/Refuge/iso3D/REFUGE ISO.jpg';
 import floor3D1Type2 from '../assets/Towers/type-2/3D_Iso/REFUGETOWER.jpg';
 // unit-1 ,2,3,4
-// import floorunit1Type2 from '../assets/stadia/Refuge/iso3D/FLAT 1.jpg';
-// import floorunit2Type2 from '../assets/stadia/Refuge/iso3D/FLAT 2.jpg';
+import floorunit1Type2 from '../assets/stadia/Refuge/iso3D/FLAT 1.jpg';
+import floorunit2Type2 from '../assets/stadia/Refuge/iso3D/FLAT 2.jpg';
 import floorunit3Type2 from '../assets/stadia/Refuge/iso3D/FLAT 3 ISO.jpg';
-import floorunit4Type2 from '../assets/stadia/Refuge/iso3D/FLAT 4 ISO.jpg';
+import floorunit4Type2 from '../assets/stadia/Refuge/iso3D/FLAT 44 ISO.jpg';
 
 // unit-1 2D and 3D
-// import floorunit2D1Type2 from '../assets/Towers/type-2/Units/2D/FLAT 1.jpg';
+import floorunit2D1Type2 from '../assets/stadia/Refuge/staticmain2D/FLAT 11.jpg';
+import floorunit2D1Type22 from '../assets/stadia/Refuge/static2D/FLAT 1.jpg';
 import floorunit3D1Type2 from '../assets/Towers/type-2/Units/3D/FLAT1.jpg';
 
 // unit-2 2D and 3D
-// import floorunit2D2Type2 from '../assets/Towers/type-2/Units/2D/FLAT 2.jpg';
+import floorunit2D2Type2 from '../assets/stadia/Refuge/staticmain2D/FLAT 22.jpg'; 
+import floorunit2D2Type22 from '../assets/stadia/Refuge/static2D/FLAT 2.jpg';
 import floorunit3D2Type2 from '../assets/Towers/type-2/Units/3D/FLAT2.jpg';
 
 // unit-3 2D and 3D
-import floorunit2D3Type2 from '../assets/stadia/Refuge/staticmain2D/FLAT 3 2D REFUGE.jpg';
+import floorunit2D3Type2 from '../assets/stadia/Refuge/staticmain2D/FLAT 33.jpg';
 
 import floorunit2D3Type22 from '../assets/stadia/Refuge/static2D/FLAT 3 2D REFUGE.jpg';
 import floorunit3D3Type2 from '../assets/Towers/type-2/Units/3D/FLAT3.jpg';
 
 // unit-4 2D and 3D
-import floorunit2D4Type2 from '../assets/stadia/Refuge/staticmain2D/FLAT 4 2D REFUGE.jpg';
+import floorunit2D4Type2 from '../assets/stadia/Refuge/staticmain2D/FLAT 44.jpg';
 
 import floorunit2D4Type22 from '../assets/stadia/Refuge/static2D/FLAT 4 2D REFUGE.jpg';
 import floorunit3D4Type2 from '../assets/Towers/type-2/Units/3D/FLAT4.jpg';
 
 
 export const description = [
-  {
-    towerName: "Stadia",
-    configuration: "2 BHK & 3 BHK",
-  },
+    {
+        towerName: "Stadia",
+        configuration: "2 BHK & 3 BHK",
+    },
 ];
 
 
 export const floorsData = [
-    { id: 1, top: "86.5%",polygon:"1067,1447,1297,1444,1295,1473,1069,1479 ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 2", height: 15, width: 148 },
-    { id: 2, top: "84.9%",polygon:" 1052,1417,1282,1414,1280,1443,1054,1449", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 3", height: 14, width: 148 },
-    { id: 3, top: "83.2%",polygon:"1057,1390,1287,1387,1285,1416,1059,1422", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 4", height: 13, width: 148 },
-    { id: 4, top: "81.5%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 5", height: 13, width: 148 },
-    { id: 5, top: "80%", polygon:" ",left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 6", height: 15, width: 148 },
-    { id: 6, top: "78.3%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 7", height: 13, width: 148 },
-    { id: 7, top: "76.7%", polygon:" ",left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 8", height: 13, width: 148 },
-    { id: 8, top: "75.2%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 9", height: 14, width: 148 },
-    { id: 9, top: "73.6%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 10", height: 14, width: 148 },
-    { id: 10, top: "72%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 11", height: 13, width: 148},
-    { id: 11, top: "70.4%", polygon:" ",left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 12", height: 14, width: 148 },
-    { id: 12, top: "68.8%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 13", height: 15, width: 148 },
-    { id: 13, top: "67.2%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 14", height: 15, width: 148 },
-    { id: 14, top: "65.6%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 15", height: 15, width: 148 },
-    { id: 15, top: "64%", polygon:" ",left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 16", height: 15, width: 148 },
-    { id: 16, top: "62.4%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 17", height: 15, width: 148 },
-    { id: 17, top: "60.8%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 18", height: 13, width: 148 },
+    { id: 1, top: "86.5%", polygon: "1067,1447,1297,1444,1295,1473,1069,1479 ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 2", height: 15, width: 148 },
+    { id: 2, top: "84.9%", polygon: " 1052,1417,1282,1414,1280,1443,1054,1449", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 3", height: 14, width: 148 },
+    { id: 3, top: "83.2%", polygon: "1057,1390,1287,1387,1285,1416,1059,1422", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 4", height: 13, width: 148 },
+    { id: 4, top: "81.5%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 5", height: 13, width: 148 },
+    { id: 5, top: "80%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 6", height: 15, width: 148 },
+    { id: 6, top: "78.3%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 7", height: 13, width: 148 },
+    { id: 7, top: "76.7%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 8", height: 13, width: 148 },
+    { id: 8, top: "75.2%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 9", height: 14, width: 148 },
+    { id: 9, top: "73.6%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 10", height: 14, width: 148 },
+    { id: 10, top: "72%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 11", height: 13, width: 148 },
+    { id: 11, top: "70.4%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 12", height: 14, width: 148 },
+    { id: 12, top: "68.8%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 13", height: 15, width: 148 },
+    { id: 13, top: "67.2%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 14", height: 15, width: 148 },
+    { id: 14, top: "65.6%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 15", height: 15, width: 148 },
+    { id: 15, top: "64%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 16", height: 15, width: 148 },
+    { id: 16, top: "62.4%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 17", height: 15, width: 148 },
+    { id: 17, top: "60.8%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 18", height: 13, width: 148 },
 
-    { id: 18, top: "59.2%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 19", height: 15, width: 148 },
-    { id: 19, top: "57.5%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 20", height: 15, width: 148 },
-    { id: 20, top: "56%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 21", height: 13, width: 148 },
+    { id: 18, top: "59.2%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 19", height: 15, width: 148 },
+    { id: 19, top: "57.5%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 20", height: 15, width: 148 },
+    { id: 20, top: "56%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 21", height: 13, width: 148 },
 
-    { id: 21, top: "54.4%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 22", height: 13, width: 148 },
-    { id: 22, top: "52.8%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 23", height: 15, width: 148 },
-    { id: 23, top: "51.2%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 24", height: 15, width: 148 },
-    { id: 24, top: "49.6%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 25", height: 13, width: 148 },
-    { id: 25, top: "48.1%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 26", height: 16, width: 148 },
-    { id: 26, top: "46.5%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 27", height: 17, width: 148 },
-    { id: 27, top: "44.8%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 28", height: 16, width: 148 },
-    { id: 28, top: "43%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 29", height: 15, width: 148 },
+    { id: 21, top: "54.4%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 22", height: 13, width: 148 },
+    { id: 22, top: "52.8%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 23", height: 15, width: 148 },
+    { id: 23, top: "51.2%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 24", height: 15, width: 148 },
+    { id: 24, top: "49.6%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 25", height: 13, width: 148 },
+    { id: 25, top: "48.1%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 26", height: 16, width: 148 },
+    { id: 26, top: "46.5%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 27", height: 17, width: 148 },
+    { id: 27, top: "44.8%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 28", height: 16, width: 148 },
+    { id: 28, top: "43%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 29", height: 15, width: 148 },
 
-    { id: 29, top: "41.6%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 30", height: 15, width: 148},
-     { id: 30, top: "40%", polygon:" ",left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 31", height: 15, width: 148},
+    { id: 29, top: "41.6%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 30", height: 15, width: 148 },
+    { id: 30, top: "40%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 31", height: 15, width: 148 },
     // Add more floors as needed
 
-    { id: 31, top: "38.4%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 32", height: 14, width: 148 },
-    { id: 32, top: "36.8%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 33", height: 14, width: 148 },
-    { id: 33, top: "35.1%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 34", height: 14, width: 148 },
-    { id: 34, top: "33.7%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 35", height: 14, width: 148 },
-    { id: 35, top: "32%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 36", height: 16, width: 148 },
-    { id: 36, top: "30.3%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 37", height: 13, width: 148 },
-    { id: 37, top: "28.9%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 38", height: 17, width: 148 },
-    { id: 38, top: "27.2%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 39", height: 14, width: 148 },
-    { id: 39, top: "25.6%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 40", height: 14, width: 148 },
-    { id: 40, top: "24%",polygon:" ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 41", height: 14, width: 148 },
+    { id: 31, top: "38.4%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 32", height: 14, width: 148 },
+    { id: 32, top: "36.8%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 33", height: 14, width: 148 },
+    { id: 33, top: "35.1%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 34", height: 14, width: 148 },
+    { id: 34, top: "33.7%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 35", height: 14, width: 148 },
+    { id: 35, top: "32%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 36", height: 16, width: 148 },
+    { id: 36, top: "30.3%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 37", height: 13, width: 148 },
+    { id: 37, top: "28.9%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 38", height: 17, width: 148 },
+    { id: 38, top: "27.2%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 39", height: 14, width: 148 },
+    { id: 39, top: "25.6%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 40", height: 14, width: 148 },
+    { id: 40, top: "24%", polygon: " ", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Floor 41", height: 14, width: 148 },
     // { id: 42, top: "14.5%", left: "40%", hoverColor: "rgba(255,165,0,0.5)", name: "Terrace Floor", height: 14, width: 140 },
 
-  ];
+];
 
 export const floors = [
     {
@@ -135,8 +137,8 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            fourBHK: { bgColor: "#eca9f7", text: "3BHK" },
-            threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
+            fourBHK: { bgColor: "#eca9f7", text: "3BHK GRANDE" },
+            threeBHK: { bgColor: "#00ffe5", text: "3BHK PRESIDENTIA" },
         },
         units: [
             {
@@ -153,37 +155,40 @@ export const floors = [
                 image2Dstatic: floorunit2D11,   //2d static
                 image3D: floorunit3D1,
                 rooms: [
-                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "409,451,838,454,780,766,705,878,271,878" },
-                    { id: 2, name: "Open Bal", size: "7'0'' x 5'0''", polygon: "527,350,493,445,757,448,771,390,802,390,802,350" },
-                    { id: 3, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "347,871,291,1054,670,1054,704,879" },
-                    { id: 4, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "845,402,1239,404,1207,770,778,762" },
-                    { id: 5, name: "Walk-through Area", size: "2'11'' x 3'3''", polygon: "778,766,929,766,911,883,704,883" },
-                    { id: 6, name: "Passage", size: "8'0'' x 3'3''", polygon: "929,769,1202,772,1194,878,914,880" },
-                    { id: 7, name: "Toilet", size: "8'0'' x 4'6''", polygon: "993,881,1348,881,1345,1038,964,1043" },
-                    { id: 8, name: "Utility", size: "6'7'' x 3'3''", polygon: "1056,1059,1356,1054,1350,1191,1046,1186" },
-                    { id: 9, name: "Kitchen", size: "8'7'' x 10'9''", polygon: "1358,879,1737,881,1756,1260,1353,1260" },
-                    { id: 10, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "1231,476,1959,473,2007,873,1213,876" },
-                    { id: 11, name: "Open Bal", size: "11'5'' x 5'0''", polygon: "1385,375,1798,378,1808,471,1382,471" },
-                    { id: 12, name: "Ent Foyer", size: "5'9'' x 7'0''", polygon: "1745,876,2007,871,2041,1112,1758,1112" },
-                    { id: 13, name: "Bedroom -2", size: "11'0'' x 14'0''", polygon: "1978,630,2431,630,2486,900,2529,1067,2034,1070" },
-                    { id: 14, name: "Toilet", size: "5'0'' x 8'0''", polygon: "2457,796,2526,1074,2772,1076,2688,798" },
+                    { id: 1, name: "Master Bedroom", size: "10'6'' x 13'10''", polygon: "575,403,1025,403,982,719,961,841,458,841" },
+                    { id: 2, name: "Balcony", size: "6'6'' x 4'0''", polygon: "678,326,974,326,972,342,953,348,943,407,657,407" },
+                    { id: 3, name: "M Toilet", size: "7'6'' x 4'6''", polygon: "590,842,548,1019,940,1022,966,842" },
+                    { id: 4, name: "Bedroom -1", size: "10'0'' x 13'0''", polygon: "1936,699,2402,699,2510,1181,1994,1186" },
+                    { id: 5, name: "Walk-through Area", size: "3'7'' x 3'3''", polygon: "985,714,959,842,1131,842,1144,714" },
+                    { id: 6, name: "Passage", size: "5'2'' x 3'3''", polygon: "1141,717,1446,717,1446,836,1133,839" },
+                    { id: 7, name: "Toilet", size: "7'6'' x 4'6''", polygon: "969,842,1350,839,1340,1022,940,1022" },
+                    { id: 8, name: "Utility", size: "3'0'' x 6'2''", polygon: "1033,1115,1218,1115,1194,1403,998,1401" },
+                    { id: 9, name: "Kitchen", size: "10'2'' x 7'11''", polygon: "1221,1053,1575,1050,1745,1050,1763,1406,1192,1406" },
+                    { id: 10, name: "Living", size: "10'6'' x 19'8''", polygon: "1454,406,1901,404,1946,833,1448,833" },
+                    { id: 11, name: "Dining", size: "1'8'' x 9'2''", polygon: "1374,833,1364,1050,1975,1048,1949,833" },
+                    { id: 12, name: "Balcony", size: "7'0'' x 5'0''", polygon: "1528,303,1830,303,1840,409,1530,409,1528,343" },
+                    { id: 13, name: "Ent Foyer", size: "4'5'' x 6'0''", polygon: "1742,1048,1975,1050,2015,1294,1750,1292" },
+                    { id: 14, name: "Bedroom -2", size: "10'0'' x 10'0''", polygon: "1025,406,1454,404,1451,719,974,719" },
+                    { id: 15, name: "Toilet", size: "4'6'' x 7'6''", polygon: "2444,881,2674,883,2767,1191,2515,1188" },
 
                 ],
                 roomstatic: [
-                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "471,464,898,470,895,1023,466,1031" },
-                    { id: 2, name: "Open Bal", size: "7'0'' x 5'0''", polygon: "537,256,828,256,828,468,537,470" },
-                    { id: 3, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "522,1029,853,1031,850,1230,524,1233" },
-                    { id: 4, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "887,401,1282,403,1276,896,882,896" },
-                    { id: 5, name: "Walk-through Area", size: "2'11'' x 3'3''", polygon: "892,891,1004,891,1004,1026,895,1029" },
-                    { id: 6, name: "Passage", size: "8'0'' x 3'3''", polygon: "1006,894,1004,1026,1279,1021,1279,891" },
-                    { id: 7, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1091,1024,1417,1017,1417,1218,1099,1215" },
-                    { id: 8, name: "Utility", size: "6'7'' x 3'3''", polygon: "1173,1218,1417,1218,1419,1361,1176,1366" },
-                    { id: 9, name: "Kitchen", size: "8'7'' x 10'9''", polygon: "1417,1025,1753,1028,1756,1430,1419,1430" },
-                    { id: 10, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "1279,498,1983,495,1981,1028,1284,1014" },
-                    { id: 11, name: "Open Bal", size: "11'5'' x 5'0''", polygon: "1419,288,1851,291,1846,492,1414,495" },
-                    { id: 12, name: "Ent Foyer", size: "5'9'' x 7'0''", polygon: "1756,1027,1986,1030,1983,1279,1756,1282" },
-                    { id: 13, name: "Bedroom -2", size: "11'0'' x 14'0''", polygon: "1986,717,2396,717,2394,1239,1989,1244" },
-                    { id: 14, name: "Toilet", size: "5'0'' x 8'0''", polygon: "2386,927,2590,927,2592,1251,2388,1251" },
+                    { id: 1, name: "Master Bedroom", size: "10'6'' x 13'10''", polygon: "752,446,1176,443,1170,984,749,989" },
+                    { id: 2, name: "Balcony", size: "6'6'' x 4'0''", polygon: "821,260,1112,260,1115,345,1094,348,1094,438,834,438,837,353,821,353" },
+                    { id: 3, name: "M Toilet", size: "7'6'' x 4'6''", polygon: "858,986,1168,984,1170,1180,863,1182" },
+                    { id: 4, name: "Bedroom -1", size: "10'0'' x 13'0''", polygon: "1970,826,2370,824,2367,1338,1967,1338" },
+                    { id: 5, name: "Walk-through Area", size: "3'7'' x 3'3''", polygon: "1165,846,1305,846,1303,981,1165,981" },
+                    { id: 6, name: "Passage", size: "5'2'' x 3'3''", polygon: "1305,849,1554,846,1554,984,1303,984" },
+                    { id: 7, name: "Toilet", size: "7'6'' x 4'6''", polygon: "1173,985,1491,985,1493,1176,1173,1181" },
+                    { id: 8, name: "Utility", size: "3'0'' x 6'2''", polygon: "1247,1270,1387,1267,1385,1522,1244,1522" },
+                    { id: 9, name: "Kitchen", size: "10'2'' x 7'11''", polygon: "1387,1205,1787,1202,1785,1520,1390,1517" },
+                    { id: 10, name: "Living", size: "10'6'' x 19'8''", polygon: "1565,446,1970,446,1965,971,1554,968" },
+                    { id: 11, name: "Dining", size: "1'8'' x 9'2''", polygon: "1493,971,1970,968,1970,1201,1491,1204" },
+                    { id: 12, name: "Balcony", size: "7'0'' x 5'0''", polygon: "1613,218,1925,221,1928,353,1909,351,1909,444,1628,446,1634,356,1610,353" },
+                    { id: 13, name: "Ent Foyer", size: "4'5'' x 6'0''", polygon: "1787,1201,1967,1201,1967,1427,1787,1429" },
+                    { id: 14, name: "Bedroom -2", size: "10'0'' x 10'0''", polygon: "1173,444,1565,446,1562,844,1173,849" },
+                    { id: 15, name: "Toilet", size: "4'6'' x 7'6''", polygon: "2365,1024,2545,1024,2550,1339,2370,1339" },
+
                 ]
             },
             {
@@ -200,38 +205,40 @@ export const floors = [
                 image2Dstatic: floorunit2D22,
                 image3D: floorunit3D2,
                 rooms: [
-                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "2190,459,2613,459,2743,878,2317,883,2251,766" },
-                    { id: 2, name: "Open Bal", size: "7'0'' x 5'0''", polygon: "2222,357,2227,394,2254,397,2267,458,2545,458,2500,355" },
-                    { id: 3, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "2317,877,2680,882,2733,1055,2359,1055" },
-                    { id: 4, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "1790,411,2182,411,2253,763,1819,771" },
-                    { id: 5, name: "Walk-through Area", size: "2'11'' x 3'3''", polygon: "2142,772,2251,766,2335,875,2147,878" },
-                    { id: 6, name: "Passage", size: "8'0'' x 3'3''", polygon: "1819,773,1827,879,2147,881,2142,765" },
-                    { id: 7, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1681,876,2041,884,2063,1048,1684,1056" },
-                    { id: 8, name: "Utility", size: "6'7'' x 3'3''", polygon: "1660,1055,1668,1182,1978,1188,1959,1047" },
-                    { id: 9, name: "Kitchen", size: "8'7'' x 10'9''", polygon: "1284,881,1676,879,1681,1048,1684,1260,1260,1260" },
-                    { id: 10, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "1062,460,1785,468,1822,879,1017,879" },
-                    { id: 11, name: "Open Bal", size: "11'5'' x 5'0''", polygon: "1226,375,1636,375,1644,463,1215,455" },
-                    { id: 12, name: "Ent Foyer", size: "5'9'' x 7'0''", polygon: "982,1107,1247,1104,1271,881,1006,879" },
-                    { id: 13, name: "Bedroom -2", size: "11'0'' x 14'0''", polygon: "590,635,1038,627,982,1075,500,1070" },
-                    { id: 14, name: "Toilet", size: "5'0'' x 8'0''", polygon: "339,801,567,801,498,1077,257,1069" },
+                    { id: 1, name: "Master Bedroom", size: "10'6'' x 13'10''", polygon: "1970,406,2425,406,2529,838,2031,841" },
+                    { id: 2, name: "Balcony", size: "6'6'' x 4'0''", polygon: "2020,324,2317,324,2335,406,2052,406,2041,338,2023,338" },
+                    { id: 3, name: "M Toilet", size: "7'6'' x 4'6''", polygon: "2031,841,2412,841,2455,1027,2057,1027" },
+                    { id: 4, name: "Bedroom -1", size: "10'0'' x 13'0''", polygon: "601,703,1062,701,1004,1196,479,1194" },
+                    { id: 5, name: "Walk-through Area", size: "3'7'' x 3'3''", polygon: "1859,719,1864,841,2036,841,2015,719" },
+                    { id: 6, name: "Passage", size: "5'2'' x 3'3''", polygon: "1552,714,1552,838,1867,841,1853,717" },
+                    { id: 7, name: "Toilet", size: "4'6'' x 7'6''", polygon: "328,881,551,876,482,1186,228,1191" },
+                    { id: 8, name: "Utility", size: "3'0'' x 6'2''", polygon: "1785,1117,1967,1119,1994,1403,1801,1403" },
+                    { id: 9, name: "Kitchen", size: "10'2'' x 7'11''", polygon: "1255,1050,1779,1053,1798,1398,1237,1398" },
+                    { id: 10, name: "Living", size: "10'6'' x 19'8''", polygon: "1088,406,1544,406,1554,830,1049,833" },
+                    { id: 11, name: "Dining", size: "1'8'' x 9'2''", polygon: "1046,830,1631,830,1639,1048,1022,1045" },
+                    { id: 12, name: "Balcony", size: "7'0'' x 5'0''", polygon: "1173,303,1475,303,1470,404,1162,412" },
+                    { id: 13, name: "Ent Foyer", size: "4'5'' x 6'0''", polygon: "1019,1038,1255,1043,1242,1297,993,1297" },
+                    { id: 14, name: "Bedroom -2", size: "10'0'' x 10'0''", polygon: "1544,402,1970,404,2010,717,1546,714" },
+                    { id: 15, name: "Toilet", size: "7'6'' x 4'6''", polygon: "1660,834,2031,836,2052,1022,1668,1022" },
 
                 ]
                 ,
                 roomstatic: [
-                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "2026,465,2441,473,2439,1027,2031,1024" },
-                    { id: 2, name: "Open Bal", size: "7'0'' x 5'0''", polygon: "2092,258,2380,260,2380,475,2089,472" },
-                    { id: 3, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "2063,1026,2375,1031,2375,1222,2065,1222" },
-                    { id: 4, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "1628,412,2026,404,2031,891,1634,897" },
-                    { id: 5, name: "Walk-through Area", size: "2'11'' x 3'3''", polygon: "1914,896,2026,893,2026,1026,1914,1028" },
-                    { id: 6, name: "Passage", size: "8'0'' x 3'3''", polygon: "1634,896,1914,898,1914,1023,1634,1023" },
-                    { id: 7, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1493,1023,1819,1026,1827,1214,1491,1214" },
-                    { id: 8, name: "Utility", size: "6'7'' x 3'3''", polygon: "1488,1224,1737,1224,1740,1362,1491,1359" },
-                    { id: 9, name: "Kitchen", size: "8'7'' x 10'9''", polygon: "1154,1020,1483,1018,1491,1426,1162,1426" },
-                    { id: 10, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "932,494,1631,489,1636,1014,935,1019" },
-                    { id: 11, name: "Open Bal", size: "11'5'' x 5'0''", polygon: "1059,285,1499,288,1496,494,1064,492" },
-                    { id: 12, name: "Ent Foyer", size: "5'9'' x 7'0''", polygon: "929,1017,1160,1017,1157,1283,929,1280" },
-                    { id: 13, name: "Bedroom -2", size: "11'0'' x 14'0''", polygon: "519,724,927,716,935,1241,516,1238" },
-                    { id: 14, name: "Toilet", size: "5'0'' x 8'0''", polygon: "331,922,524,919,527,1243,326,1243" },
+                   { id: 1, name: "Master Bedroom", size: "10'6'' x 13'10''", polygon: "1954,446,2362,443,2370,984,1959,986" },
+                    { id: 2, name: "Balcony", size: "6'6'' x 4'0''", polygon: "2010,255,2306,258,2306,353,2290,353,2288,446,2028,440,2023,356,2007,356" },
+                    { id: 3, name: "M Toilet", size: "7'6'' x 4'6''", polygon: "1959,979,1957,1173,2264,1176,2261,982" },
+                    { id: 4, name: "Bedroom -1", size: "10'0'' x 13'0''", polygon: "760,820,1152,820,1147,1340,760,1342" },
+                    { id: 5, name: "Walk-through Area", size: "3'7'' x 3'3''", polygon: "1816,846,1957,846,1957,984,1819,984" },
+                    { id: 6, name: "Passage", size: "5'2'' x 3'3''", polygon: "1597,846,1819,843,1819,981,1597,978" },
+                    { id: 7, name: "Toilet", size: "4'6'' x 7'6''", polygon: "572,1026,760,1023,760,1336,564,1339" },
+                    { id: 8, name: "Utility", size: "3'0'' x 6'2''", polygon: "1734,1270,1875,1270,1875,1524,1734,1524" },
+                    { id: 9, name: "Kitchen", size: "10'2'' x 7'11''", polygon: "1332,1204,1737,1204,1737,1524,1332,1524" },
+                    { id: 10, name: "Living", size: "10'6'' x 19'8''", polygon: "1141,440,1562,440,1565,915,1141,912" },
+                    { id: 11, name: "Dining", size: "1'8'' x 9'2''", polygon: "1141,915,1620,915,1623,1204,1152,1204" },
+                    { id: 12, name: "Balcony", size: "7'0'' x 5'0''", polygon: "1198,217,1510,219,1513,349,1491,349,1491,441,1211,441,1211,349,1195,346" },
+                    { id: 13, name: "Ent Foyer", size: "4'5'' x 6'0''", polygon: "1149,1204,1332,1206,1332,1431,1147,1429" },
+                    { id: 14, name: "Bedroom -2", size: "10'0'' x 10'0''", polygon: "1565,443,1951,443,1951,838,1560,843" },
+                    { id: 15, name: "Toilet", size: "7'6'' x 4'6''", polygon: "1647,978,1644,1174,1957,1174,1957,978" },
                 ]
             },
 
@@ -242,56 +249,51 @@ export const floors = [
                 size: "1400 sq.ft",
                 hoverColor: "rgba(236,169,247,0.3)",
                 polygonPoints:
-                    "2454,1517,2449,1694,2590,1698,2590,1835,2908,1831,2904,1977,3023,1985,3032,2047,3041,2153,3420,2149,3402,1990,3508,1981,3579,1981,3826,1985,3831,2038,3967,2038,4320,2038,4356,2038,4382,2162,4603,2166,4563,1994,4634,1981,4541,1637,4391,1641,4360,1531,3720,1517,3526,1517,3526,1442,3341,1442,3345,1403,3063,1398,3054,1464,2891,1460,2891,1517",
+                    "2520,1533,3067,1542,3067,1502,3279,1507,3261,1401,3786,1401,3822,1546,3892,1546,4122,1538,4417,1542,4453,1675,4523,1670,4656,2116,4585,2129,4598,2187,4594,2235,4620,2328,4325,2324,4307,2257,4320,2187,4303,2112,4232,2116,4267,2240,3844,2240,3808,2098,3694,2098,3703,2169,3689,2231,3711,2306,3270,2310,3266,2235,3261,2160,3252,2094,3116,2090,3107,2001,2705,1993,2696,1781,2520,1776",
                 unitimage: floorunit3,
                 image2D: floorunit2D3,
                 image2Dstatic: floorunit2D33,
                 image3D: floorunit3D3,
                 rooms: [
-                    { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
-                    { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
-                    { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
-                    { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
+                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "2137,593,2588,596,2725,1064,2220,1067" },
+                    { id: 2, name: "Walk-In", size: "2'11'' x 3'3''", polygon: "2024,596,2037,691,2153,691,2135,596" },
+                    { id: 3, name: "Balcony", size: "7'0'' x 5'0''", polygon: "2312,1063,2638,1068,2656,1139,2654,1198,2683,1306,2325,1303,2312,1200,2333,1153" },
+                    { id: 4, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "2145,449,2468,449,2508,597,2175,589" },
+                    { id: 5, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "1719,692,2151,695,2228,1126,1743,1118" },
+                 
 
-                    { id: 7, name: "Passage", size: "20'2'' x 3'3''", polygon: "1395,668,1390,750,2042,761,2042,668" },
-                    { id: 8, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1440,554,1729,554,1732,663,1443,666" },
-                    { id: 9, name: "Utility", size: "6'10'' x 3'7''", polygon: "1279,448,1491,448,1491,531,1271,528" },
-                    { id: 10, name: "Kitchen", size: "10'3'' x 11'6''", polygon: "937,406,1276,403,1271,538,1260,674,1258,708,1152,708,1154,671,1115,671,1025,671,895,666" },
-                    { id: 11, name: "Living/Dining", size: "21'0'' x 15'10''", polygon: "687,667,1395,675,1373,1099,597,1094" },
-                    { id: 12, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "736,1095,1237,1095,1237,1169,1226,1296,720,1294" },
-                    { id: 13, name: "Ent Foyer", size: "5'9'' x 8'6''", polygon: "720,477,924,472,894,668,693,668" },
-                    { id: 14, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "355,529,723,527,635,904,228,895" },
-                    { id: 15, name: "Toilet", size: "5'0'' x 8'0''", polygon: "186,528,365,530,299,731,112,730" },
+                    { id: 6, name: "Passage", size: "8'0'' x 3'3''", polygon: "1711,595,1719,692,2042,695,2024,597" },
+                    { id: 7, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1558,464,1889,459,1902,594,1560,604" },
+                    { id: 8, name: "Utility", size: "6'2'' x 3'3''", polygon: "1552,361,1801,359,1801,449,1547,454" },
+                    { id: 9, name: "Kitchen", size: "8'6'' x 10'9''", polygon: "1224,311,1552,316,1552,591,1200,591" },
+                    { id: 10, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "1415,615,1542,620,1550,599,1711,599,1740,1038,898,1035,965,617" },
+                    { id: 11, name: "Balcony", size: "11'5'' x 5'0''", polygon: "1065,1037,1055,1117,1060,1164,1055,1270,1579,1270,1579,1165,1574,1122,1574,1035" },
+                    { id: 12, name: "Ent Foyer", size: "5'6'' x 7'0''", polygon: "978,417,1208,414,1187,610,957,618" },
+                    { id: 13, name: "Bedroom -2", size: "11'0'' x 14'0''", polygon: "562,456,983,448,919,853,456,853" },
+                    { id: 14, name: "Toilet", size: "5'0'' x 8'0''", polygon: "353,451,559,454,498,684,279,681" },
 
-                    { id: 16, name: "Bedroom -3", size: "10'0'' x 12'0''", polygon: "1393,753,1737,756,1750,1090,1385,1090" },
-                    { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1279,531,1395,531,1395,666,1258,666" },
-                    { id: 18, name: "Passage", size: "7'4'' x 3'3''", polygon: "2045,668,2053,753,2315,753,2296,673" },
+                   
                 ]
                 ,
 
                 roomstatic: [
-                    { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
-                    { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
-                    { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
-                    { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
-                    { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "138,427,324,427,326,745,141,743" },
+                      { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "2066,593,2453,593,2455,1127,2063,1130" },
+                    { id: 2, name: "Walk-In", size: "2'11'' x 3'3''", polygon: "1955,597,1957,716,2071,718,2069,597" },
+                    { id: 3, name: "Balcony", size: "7'0'' x 5'0''", polygon: "2135,1125,2394,1125,2397,1210,2410,1210,2410,1329,2124,1332,2122,1210,2140,1210" },
+                    { id: 4, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "2087,395,2400,400,2400,593,2087,591" },
+                    { id: 5, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "1685,716,2061,724,2055,1187,1690,1187" },
+                 
 
-                    { id: 7, name: "Passage", size: "7'4'' x 3'3''", polygon: "2177,639,2180,771,2434,766,2432,641" },
-                    { id: 8, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1528,457,1843,457,1846,642,1523,637" },
-                    { id: 9, name: "Utility", size: "6'10'' x 3'7''", polygon: "1332,279,1575,281,1573,427,1332,425" },
-                    { id: 10, name: "Kitchen", size: "10'3'' x 11'6''", polygon: "948,205,1335,205,1327,642,940,639" },
-                    { id: 11, name: "Living/Dining", size: "21'0'' x 15'10''", polygon: "715,1213,1470,1213,1475,640,726,635" },
-                    { id: 12, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2493,1192,2771,1192,2766,1285,2787,1288,2784,1404,2485,1410,2485,1291,2501,1288" },
-                    { id: 13, name: "Ent Foyer", size: "5'9'' x 8'6''", polygon: "728,333,945,335,951,632,726,632" },
-                    { id: 14, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "2031,766,2439,766,2433,1275,2031,1272" },
-                    { id: 15, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1844,764,2032,767,2034,1076,1846,1079" },
+                    { id: 6, name: "Passage", size: "8'0'' x 3'3''", polygon: "1682,592,1685,719,1955,722,1952,592" },
+                    { id: 7, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1555,422,1852,420,1854,589,1555,591" },
+                    { id: 8, name: "Utility", size: "6'2'' x 3'3''", polygon: "1534,274,1777,272,1775,401,1536,407" },
+                    { id: 9, name: "Kitchen", size: "8'6'' x 10'9''", polygon: "1229,205,1536,203,1539,597,1227,597" },
+                    { id: 10, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "1010,604,1679,601,1687,1101,1007,1101" },
+                    { id: 11, name: "Balcony", size: "11'5'' x 5'0''", polygon: "1139,1095,1555,1098,1552,1185,1571,1188,1568,1304,1129,1307,1129,1185,1142,1185" },
+                    { id: 12, name: "Ent Foyer", size: "5'6'' x 7'0''", polygon: "1007,353,1221,353,1221,602,1012,607" },
+                    { id: 13, name: "Bedroom -2", size: "11'0'' x 14'0''", polygon: "620,403,1007,406,1007,908,618,906" },
+                    { id: 14, name: "Toilet", size: "5'0'' x 8'0''", polygon: "424,403,618,403,620,704,427,707" },
 
-                    { id: 16, name: "Bedroom -3", size: "10'0'' x 12'0''", polygon: "1475,766,1838,769,1830,1212,1477,1209" },
-                    { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1327,427,1477,427,1477,642,1332,639" },
-                    { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "1480,636,1475,761,2180,763,2180,641" },
                 ]
             },
 
@@ -304,63 +306,55 @@ export const floors = [
                 size: "1400 sq.ft",
                 hoverColor: "rgba(236,169,247,0.3)",
                 polygonPoints:
-                    "362,1636,494,1627,534,1530,1033,1535,1037,1583,1112,1583,1121,1535,1169,1539,1350,1535,1372,1442,1549,1446,1562,1402,1845,1407,1831,1464,2004,1468,2008,1521,2449,1521,2445,1707,2299,1702,2308,1892,2056,1897,2061,1844,1981,1839,1973,1994,1853,1989,1849,2148,1470,2148,1474,1998,1377,1994,1320,2003,1125,1998,1068,1994,1046,2029,1028,2095,962,2091,958,2047,914,2043,843,2038,830,2083,671,2087,658,2030,583,2030,587,1990,525,1990,521,2043,503,2136,296,2131,335,1977,252,1977",
+                    "609,1538,1209,1538,1236,1392,1756,1401,1748,1502,1955,1502,1955,1538,2511,1533,2520,1772,2462,1776,2462,1798,2392,1803,2387,1772,2326,1781,2326,1931,2255,1931,2259,1993,1990,2001,1990,1926,1920,1931,1902,2090,1761,2090,1752,2165,1756,2244,1743,2302,1337,2297,1328,2222,1324,2160,1337,2094,1214,2094,1187,2227,1112,2227,1103,2297,861,2297,847,2231,772,2231,799,2112,737,2112,711,2178,719,2235,706,2324,419,2328,437,2240,428,2191,455,2116,380,2116,503,1683,574,1683",
                 unitimage: floorunit4,
                 image2D: floorunit2D4,
                 image2Dstatic: floorunit2D44,
                 image3D: floorunit3D4,
                 rooms: [
-                    { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
+                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "422,588,859,593,782,1069,279,1064" },
+                    { id: 2, name: "Walk-In", size: "2'11'' x 3'3''", polygon: "851,599,978,599,965,691,835,694" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 5'0''", polygon: "363,1061,337,1146,348,1193,321,1302,668,1304,694,1196,673,1151,684,1066" },
 
-                    { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
-                    { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "680,753,1070,758,1035,1145,590,1148" },
-                    { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1067,753,1252,756,1237,978,1181,978,1178,1005,1120,1005,1117,976,1046,976" },
+                    { id: 4, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "533,448,853,448,832,591,488,585" },
+                    { id: 5, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "837,696,1274,696,1256,1120,774,1122" },
+                    { id: 6, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1113,456,1431,458,1431,593,1092,596" },
 
-                    { id: 7, name: "Passage", size: "7'4'' x 3'3''", polygon: "701,670,685,750,932,750,942,670" },
-                    { id: 8, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1263,546,1552,554,1554,666,1263,663" },
+                    { id: 7, name: "Passage", size: "8'0'' x 3'3''", polygon: "978,590,962,691,1280,696,1282,598" },
+                  
 
-                    { id: 9, name: "Utility", size: "6'10'' x 3'7''", polygon: "1504,448,1724,448,1729,528,1501,531" },
-                    { id: 10, name: "Kitchen", size: "10'3'' x 11'6''", polygon: "1716,401,2060,398,2113,668,1734,666" },
-                    { id: 11, name: "Living/Dining", size: "21'0'' x 15'10''", polygon: "1607,756,1618,1092,2269,1095,2412,1092,2372,896,2312,663,1732,674" },
-                    { id: 12, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "1763,1095,2264,1092,2285,1174,2269,1201,2282,1294,1774,1294,1769,1214,1766,1166" },
-                    { id: 13, name: "Ent Foyer", size: "5'9'' x 8'6''", polygon: "2081,472,2282,474,2306,662,2116,665" },
-                    { id: 14, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "2274,531,2645,531,2772,904,2354,904" },
-                    { id: 15, name: "Toilet", size: "5'0'' x 8'0''", polygon: "2640,521,2818,523,2892,733,2706,733" },
+                    { id: 8, name: "Utility", size: "6'2'' x 3'3''", polygon: "1198,363,1449,361,1446,448,1198,451" },
+                    { id: 9, name: "Kitchen", size: "8'6'' x 10'9''", polygon: "1444,317,1775,317,1799,592,1695,589,1571,621,1452,618" },
+                    { id: 10, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "1282,597,1449,597,1449,624,1571,618,1698,592,1812,595,2034,597,2092,1036,1412,1042,1264,1042" },
+                    { id: 11, name: "Open Bal", size: "11'5'' x 5'0''", polygon: "1423,1036,1931,1039,1942,1113,1939,1168,1947,1271,1423,1271,1423,1179,1420,1121" },
+                    { id: 12, name: "Ent Foyer", size: "5'6'' x 7'0''", polygon: "1796,417,2016,414,2034,599,1812,597" },
+                    { id: 13, name: "Bedroom -2", size: "11'0'' x 14'0''", polygon: "2018,449,2439,452,2545,857,2074,851" },
+                    { id: 14, name: "Toilet", size: "5'0'' x 8'0''", polygon: "2434,455,2651,455,2715,682,2500,682" },
 
-                    { id: 16, name: "Bedroom -3", size: "10'0'' x 12'0''", polygon: "1258,756,1607,753,1618,1092,1239,1090" },
-
-                    { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
-                    { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
                     
+
                 ],
 
                 roomstatic: [
-                    { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "491,593,885,593,885,1130,491,1133" },
+                    { id: 2, name: "Walk-In", size: "2'11'' x 3'3''", polygon: "882,594,882,721,988,723,988,596" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 5'0''", polygon: "557,1127,811,1127,806,1209,824,1209,827,1334,533,1334,533,1217,551,1217" },
 
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
+                    { id: 4, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "559,401,851,401,851,591,559,591" },
+                    { id: 5, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "882,720,1264,720,1253,1188,885,1191" },
+                    { id: 6, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1094,414,1399,417,1396,597,1092,597" },
 
-                    { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "564,412,940,410,940,595,564,600" },
-                    { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "569,727,974,732,977,1246,567,1235" },
-                    { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "964,726,1152,729,1152,1036,966,1036" },
+                    { id: 7, name: "Passage", size: "8'0'' x 3'3''", polygon: "988,594,1261,597,1261,716,986,724" },
+                  
 
-                    { id: 7, name: "Passage", size: "7'4'' x 3'3''", polygon: "568,602,568,729,828,726,826,602" },
-                    { id: 8, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1162,425,1464,425,1467,603,1160,605" },
+                    { id: 8, name: "Utility", size: "6'2'' x 3'3''", polygon: "1168,280,1401,277,1396,412,1171,409" },
+                    { id: 9, name: "Kitchen", size: "8'6'' x 10'9''", polygon: "1399,203,1716,203,1719,594,1399,597" },
+                    { id: 10, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "1261,597,1931,599,1939,1102,1256,1099" },
+                    { id: 11, name: "Open Bal", size: "11'5'' x 5'0''", polygon: "1383,1097,1799,1099,1799,1184,1817,1184,1817,1306,1380,1308,1378,1184,1383,1184" },
+                    { id: 12, name: "Ent Foyer", size: "5'6'' x 7'0''", polygon: "1722,348,1939,351,1939,599,1719,597" },
+                    { id: 13, name: "Bedroom -2", size: "11'0'' x 14'0''", polygon: "1934,412,2323,409,2325,907,1939,907" },
+                    { id: 14, name: "Toilet", size: "5'0'' x 8'0''", polygon: "2325,409,2516,409,2513,708,2325,711" },
 
-                    { id: 9, name: "Utility", size: "6'10'' x 3'7''", polygon: "1422,244,1665,242,1671,390,1419,390" },
-                    { id: 10, name: "Kitchen", size: "10'3'' x 11'6''", polygon: "1668,172,2049,174,2047,598,1668,601" },
-                    { id: 11, name: "Living/Dining", size: "21'0'' x 15'10''", polygon: "1517,605,2274,602,2288,1169,1525,1180" },
-                    { id: 12, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "1660,1183,2145,1176,2147,1377,1658,1382" },
-                    { id: 13, name: "Ent Foyer", size: "5'9'' x 8'6''", polygon: "2063,299,2285,299,2282,600,2057,600" },
-                    { id: 14, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "2274,400,2685,400,2688,933,2274,938" },
-                    { id: 15, name: "Toilet", size: "5'0'' x 8'0''", polygon: "2674,393,2867,393,2868,708,2677,705" },
-
-                    { id: 16, name: "Bedroom -3", size: "10'0'' x 12'0''", polygon: "1168,732,1515,730,1523,1180,1165,1178" },
-
-                    { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1520,396,1671,393,1668,603,1523,605" },
-                    { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "826,604,828,731,1525,731,1523,604" },
                 ]
             },
         ],
@@ -388,7 +382,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 201,
                 name: "Unit No-1",
@@ -499,8 +493,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -523,7 +517,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -561,7 +555,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -583,12 +577,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -748,8 +742,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -772,7 +766,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -807,7 +801,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -829,12 +823,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -994,8 +988,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -1018,7 +1012,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -1053,7 +1047,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -1075,12 +1069,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -1240,8 +1234,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -1264,7 +1258,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -1299,7 +1293,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -1321,12 +1315,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -1375,7 +1369,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 601,
                 name: "Unit No-1",
@@ -1486,8 +1480,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -1510,7 +1504,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -1545,7 +1539,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -1567,12 +1561,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -1621,7 +1615,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 801,
                 name: "Unit No-1",
@@ -1732,8 +1726,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -1756,7 +1750,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -1791,7 +1785,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -1813,12 +1807,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -1978,8 +1972,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -2002,7 +1996,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -2037,7 +2031,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -2059,12 +2053,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -2113,7 +2107,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-          units: [
+        units: [
             {
                 id: 1001,
                 name: "Unit No-1",
@@ -2224,8 +2218,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -2248,7 +2242,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -2283,7 +2277,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -2305,12 +2299,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -2360,7 +2354,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 1101,
                 name: "Unit No-1",
@@ -2471,8 +2465,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -2495,7 +2489,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -2530,7 +2524,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -2552,12 +2546,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -2607,7 +2601,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 1301,
                 name: "Unit No-1",
@@ -2718,8 +2712,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -2742,7 +2736,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -2777,7 +2771,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -2799,12 +2793,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -2965,8 +2959,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -2989,7 +2983,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -3024,7 +3018,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -3046,12 +3040,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -3101,7 +3095,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-          units: [
+        units: [
             {
                 id: 1501,
                 name: "Unit No-1",
@@ -3212,8 +3206,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -3236,7 +3230,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -3271,7 +3265,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -3293,12 +3287,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -3347,7 +3341,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 1601,
                 name: "Unit No-1",
@@ -3458,8 +3452,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -3482,7 +3476,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -3517,7 +3511,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -3539,12 +3533,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -3704,8 +3698,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -3728,7 +3722,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -3763,7 +3757,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -3785,12 +3779,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -3950,8 +3944,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -3974,7 +3968,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -4009,7 +4003,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -4031,12 +4025,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -4085,7 +4079,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 2001,
                 name: "Unit No-1",
@@ -4196,8 +4190,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -4220,7 +4214,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -4255,7 +4249,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -4277,12 +4271,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -4442,8 +4436,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -4466,7 +4460,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -4501,7 +4495,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -4523,12 +4517,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -4577,7 +4571,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 2301,
                 name: "Unit No-1",
@@ -4688,8 +4682,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -4712,7 +4706,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -4747,7 +4741,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -4769,12 +4763,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -4934,8 +4928,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -4958,7 +4952,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -4993,7 +4987,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -5015,12 +5009,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -5069,7 +5063,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 2501,
                 name: "Unit No-1",
@@ -5180,8 +5174,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -5204,7 +5198,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -5239,7 +5233,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -5261,12 +5255,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -5316,7 +5310,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-       units: [
+        units: [
             {
                 id: 2601,
                 name: "Unit No-1",
@@ -5427,8 +5421,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -5451,7 +5445,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -5486,7 +5480,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -5508,12 +5502,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -5673,8 +5667,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -5697,7 +5691,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -5732,7 +5726,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -5754,12 +5748,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -5811,7 +5805,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 2901,
                 name: "Unit No-1",
@@ -5922,8 +5916,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -5946,7 +5940,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -5981,7 +5975,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -6003,12 +5997,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -6168,8 +6162,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -6192,7 +6186,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -6227,7 +6221,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -6249,12 +6243,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -6415,8 +6409,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -6439,7 +6433,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -6474,7 +6468,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -6496,12 +6490,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -6550,7 +6544,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 3301,
                 name: "Unit No-1",
@@ -6661,8 +6655,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -6685,7 +6679,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -6720,7 +6714,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -6742,12 +6736,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -6795,7 +6789,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 3401,
                 name: "Unit No-1",
@@ -6906,8 +6900,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -6930,7 +6924,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -6965,7 +6959,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -6987,12 +6981,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -7041,7 +7035,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 3501,
                 name: "Unit No-1",
@@ -7152,8 +7146,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -7176,7 +7170,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -7211,7 +7205,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -7233,12 +7227,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -7289,8 +7283,11 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
-            fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
-            threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
+         
+
+            threeBHK: { bgColor: "#00ffe5", text: "3BHK GRANDE" },
+            fourBHK: { bgColor: "#eca9f7", text: "3BHK PRESIDENTIA" },
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK GRANDE" },
         },
         units: [
             {
@@ -7301,43 +7298,46 @@ export const floors = [
                 hoverColor: "rgba(0,255,229,0.3)",
 
                 polygonPoints:
-                    "1090,663,1024,889,1072,906,1037,994,1267,994,1280,906,1461,902,1434,977,1496,981,1483,1056,1655,1061,1655,1096,1867,1092,1880,1008,2043,1012,2449,1008,2458,800,2418,805,2423,840,2370,836,2370,800,2321,800,2330,730,2273,730,2264,769,2127,765,2127,716,2065,712,2065,668,1973,672,1986,610,1717,610,1708,659,1620,663,1628,601,1575,588,1571,641,1417,641,1421,601,1364,601,1178,601,1161,659",
-                unitimage: floorunit1,
-                image2D: floorunit2D1,
-                image2Dstatic: floorunit2D11,
+                    "1254,408,1453,408,1431,448,1537,457,1727,461,1740,421,1833,417,1833,399,2040,399,2040,443,2089,457,2071,593,2111,598,2115,642,2318,646,2322,598,2384,598,2375,673,2512,682,2508,916,2044,907,2040,964,1890,964,1886,1022,1457,1022,1457,880,1074,876,1175,457,1241,457",
+                unitimage: floorunit1Type2,
+                image2D: floorunit2D1Type2, 
+                image2Dstatic: floorunit2D1Type22,
                 image3D: floorunit3D1Type2,
-                rooms: [
-                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "409,451,838,454,780,766,705,878,271,878" },
-                    { id: 2, name: "Open Bal", size: "7'0'' x 5'0''", polygon: "527,350,493,445,757,448,771,390,802,390,802,350" },
-                    { id: 3, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "347,871,291,1054,670,1054,704,879" },
-                    { id: 4, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "845,402,1239,404,1207,770,778,762" },
-                    { id: 5, name: "Walk-through Area", size: "2'11'' x 3'3''", polygon: "778,766,929,766,911,883,704,883" },
-                    { id: 6, name: "Passage", size: "8'0'' x 3'3''", polygon: "929,769,1202,772,1194,878,914,880" },
-                    { id: 7, name: "Toilet", size: "8'0'' x 4'6''", polygon: "993,881,1348,881,1345,1038,964,1043" },
-                    { id: 8, name: "Utility", size: "6'7'' x 3'3''", polygon: "1056,1059,1356,1054,1350,1191,1046,1186" },
-                    { id: 9, name: "Kitchen", size: "8'7'' x 10'9''", polygon: "1358,879,1737,881,1756,1260,1353,1260" },
-                    { id: 10, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "1231,476,1959,473,2007,873,1213,876" },
-                    { id: 11, name: "Open Bal", size: "11'5'' x 5'0''", polygon: "1385,375,1798,378,1808,471,1382,471" },
-                    { id: 12, name: "Ent Foyer", size: "5'9'' x 7'0''", polygon: "1745,876,2007,871,2041,1112,1758,1112" },
-                    { id: 13, name: "Bedroom -2", size: "11'0'' x 14'0''", polygon: "1978,630,2431,630,2486,900,2529,1067,2034,1070" },
-                    { id: 14, name: "Toilet", size: "5'0'' x 8'0''", polygon: "2457,796,2526,1074,2772,1076,2688,798" },
+                  rooms: [
+                    { id: 1, name: "Master Bedroom", size: "10'6'' x 13'10''", polygon: "575,403,1025,403,982,719,961,841,458,841" },
+                    { id: 2, name: "Balcony", size: "6'6'' x 4'0''", polygon: "678,326,974,326,972,342,953,348,943,407,657,407" },
+                    { id: 3, name: "M Toilet", size: "7'6'' x 4'6''", polygon: "590,842,548,1019,940,1022,966,842" },
+                    { id: 4, name: "Bedroom -1", size: "10'0'' x 13'0''", polygon: "1936,699,2402,699,2510,1181,1994,1186" },
+                    { id: 5, name: "Walk-through Area", size: "3'7'' x 3'3''", polygon: "985,714,959,842,1131,842,1144,714" },
+                    { id: 6, name: "Passage", size: "5'2'' x 3'3''", polygon: "1141,717,1446,717,1446,836,1133,839" },
+                    { id: 7, name: "Toilet", size: "7'6'' x 4'6''", polygon: "969,842,1350,839,1340,1022,940,1022" },
+                    { id: 8, name: "Utility", size: "3'0'' x 6'2''", polygon: "1033,1115,1218,1115,1194,1403,998,1401" },
+                    { id: 9, name: "Kitchen", size: "10'2'' x 7'11''", polygon: "1221,1053,1575,1050,1745,1050,1763,1406,1192,1406" },
+                    { id: 10, name: "Living", size: "10'6'' x 19'8''", polygon: "1454,406,1901,404,1946,833,1448,833" },
+                    { id: 11, name: "Dining", size: "1'8'' x 9'2''", polygon: "1374,833,1364,1050,1975,1048,1949,833" },
+                    { id: 12, name: "Balcony", size: "7'0'' x 5'0''", polygon: "1528,303,1830,303,1840,409,1530,409,1528,343" },
+                    { id: 13, name: "Ent Foyer", size: "4'5'' x 6'0''", polygon: "1742,1048,1975,1050,2015,1294,1750,1292" },
+                    { id: 14, name: "Bedroom -2", size: "10'0'' x 10'0''", polygon: "1025,406,1454,404,1451,719,974,719" },
+                    { id: 15, name: "Toilet", size: "4'6'' x 7'6''", polygon: "2444,881,2674,883,2767,1191,2515,1188" },
 
                 ],
                 roomstatic: [
-                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "471,464,898,470,895,1023,466,1031" },
-                    { id: 2, name: "Open Bal", size: "7'0'' x 5'0''", polygon: "537,256,828,256,828,468,537,470" },
-                    { id: 3, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "522,1029,853,1031,850,1230,524,1233" },
-                    { id: 4, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "887,401,1282,403,1276,896,882,896" },
-                    { id: 5, name: "Walk-through Area", size: "2'11'' x 3'3''", polygon: "892,891,1004,891,1004,1026,895,1029" },
-                    { id: 6, name: "Passage", size: "8'0'' x 3'3''", polygon: "1006,894,1004,1026,1279,1021,1279,891" },
-                    { id: 7, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1091,1024,1417,1017,1417,1218,1099,1215" },
-                    { id: 8, name: "Utility", size: "6'7'' x 3'3''", polygon: "1173,1218,1417,1218,1419,1361,1176,1366" },
-                    { id: 9, name: "Kitchen", size: "8'7'' x 10'9''", polygon: "1417,1025,1753,1028,1756,1430,1419,1430" },
-                    { id: 10, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "1279,498,1983,495,1981,1028,1284,1014" },
-                    { id: 11, name: "Open Bal", size: "11'5'' x 5'0''", polygon: "1419,288,1851,291,1846,492,1414,495" },
-                    { id: 12, name: "Ent Foyer", size: "5'9'' x 7'0''", polygon: "1756,1027,1986,1030,1983,1279,1756,1282" },
-                    { id: 13, name: "Bedroom -2", size: "11'0'' x 14'0''", polygon: "1986,717,2396,717,2394,1239,1989,1244" },
-                    { id: 14, name: "Toilet", size: "5'0'' x 8'0''", polygon: "2386,927,2590,927,2592,1251,2388,1251" },
+                    { id: 1, name: "Master Bedroom", size: "10'6'' x 13'10''", polygon: "752,446,1176,443,1170,984,749,989" },
+                    { id: 2, name: "Balcony", size: "6'6'' x 4'0''", polygon: "821,260,1112,260,1115,345,1094,348,1094,438,834,438,837,353,821,353" },
+                    { id: 3, name: "M Toilet", size: "7'6'' x 4'6''", polygon: "858,986,1168,984,1170,1180,863,1182" },
+                    { id: 4, name: "Bedroom -1", size: "10'0'' x 13'0''", polygon: "1970,826,2370,824,2367,1338,1967,1338" },
+                    { id: 5, name: "Walk-through Area", size: "3'7'' x 3'3''", polygon: "1165,846,1305,846,1303,981,1165,981" },
+                    { id: 6, name: "Passage", size: "5'2'' x 3'3''", polygon: "1305,849,1554,846,1554,984,1303,984" },
+                    { id: 7, name: "Toilet", size: "7'6'' x 4'6''", polygon: "1173,985,1491,985,1493,1176,1173,1181" },
+                    { id: 8, name: "Utility", size: "3'0'' x 6'2''", polygon: "1247,1270,1387,1267,1385,1522,1244,1522" },
+                    { id: 9, name: "Kitchen", size: "10'2'' x 7'11''", polygon: "1387,1205,1787,1202,1785,1520,1390,1517" },
+                    { id: 10, name: "Living", size: "10'6'' x 19'8''", polygon: "1565,446,1970,446,1965,971,1554,968" },
+                    { id: 11, name: "Dining", size: "1'8'' x 9'2''", polygon: "1493,971,1970,968,1970,1201,1491,1204" },
+                    { id: 12, name: "Balcony", size: "7'0'' x 5'0''", polygon: "1613,218,1925,221,1928,353,1909,351,1909,444,1628,446,1634,356,1610,353" },
+                    { id: 13, name: "Ent Foyer", size: "4'5'' x 6'0''", polygon: "1787,1201,1967,1201,1967,1427,1787,1429" },
+                    { id: 14, name: "Bedroom -2", size: "10'0'' x 10'0''", polygon: "1173,444,1565,446,1562,844,1173,849" },
+                    { id: 15, name: "Toilet", size: "4'6'' x 7'6''", polygon: "2365,1024,2545,1024,2550,1339,2370,1339" },
+
                 ]
             },
             {
@@ -7348,102 +7348,100 @@ export const floors = [
                 hoverColor: "rgba(0,255,229,0.3)",
 
                 polygonPoints:
-                    "2458,808,2462,843,2529,848,2538,804,2586,804,2573,724,2621,733,2626,764,2785,768,2789,724,2833,729,2838,671,2935,671,2935,614,3200,605,3205,676,3293,671,3280,601,3328,601,3337,631,3478,631,3483,601,3545,601,3743,601,3761,640,3818,658,3880,905,3823,910,3849,994,3637,994,3624,905,3447,901,3461,980,3412,989,3408,1055,3258,1051,3258,1091,3028,1095,3023,1016,2864,1016,2445,1007",
-                unitimage: floorunit2,
-                image2D: floorunit2D2,
-                image2Dstatic: floorunit2D22,
+                    "2512,682,2508,920,2971,925,2971,964,3218,973,3227,1013,3571,1013,3558,880,3964,880,3845,412,3571,412,3585,465,3501,457,3501,426,3470,465,3302,465,3205,465,3183,390,2976,395,2989,457,2936,457,2949,598,2914,598,2909,651,2711,655,2706,607,2645,607,2640,651,2636,677",
+                unitimage: floorunit2Type2,
+                image2D: floorunit2D2Type2,
+                image2Dstatic: floorunit2D2Type22,
                 image3D: floorunit3D2Type2,
-                rooms: [
-                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "2190,459,2613,459,2743,878,2317,883,2251,766" },
-                    { id: 2, name: "Open Bal", size: "7'0'' x 5'0''", polygon: "2222,357,2227,394,2254,397,2267,458,2545,458,2500,355" },
-                    { id: 3, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "2317,877,2680,882,2733,1055,2359,1055" },
-                    { id: 4, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "1790,411,2182,411,2253,763,1819,771" },
-                    { id: 5, name: "Walk-through Area", size: "2'11'' x 3'3''", polygon: "2142,772,2251,766,2335,875,2147,878" },
-                    { id: 6, name: "Passage", size: "8'0'' x 3'3''", polygon: "1819,773,1827,879,2147,881,2142,765" },
-                    { id: 7, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1681,876,2041,884,2063,1048,1684,1056" },
-                    { id: 8, name: "Utility", size: "6'7'' x 3'3''", polygon: "1660,1055,1668,1182,1978,1188,1959,1047" },
-                    { id: 9, name: "Kitchen", size: "8'7'' x 10'9''", polygon: "1284,881,1676,879,1681,1048,1684,1260,1260,1260" },
-                    { id: 10, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "1062,460,1785,468,1822,879,1017,879" },
-                    { id: 11, name: "Open Bal", size: "11'5'' x 5'0''", polygon: "1226,375,1636,375,1644,463,1215,455" },
-                    { id: 12, name: "Ent Foyer", size: "5'9'' x 7'0''", polygon: "982,1107,1247,1104,1271,881,1006,879" },
-                    { id: 13, name: "Bedroom -2", size: "11'0'' x 14'0''", polygon: "590,635,1038,627,982,1075,500,1070" },
-                    { id: 14, name: "Toilet", size: "5'0'' x 8'0''", polygon: "339,801,567,801,498,1077,257,1069" },
+                 rooms: [
+                    { id: 1, name: "Master Bedroom", size: "10'6'' x 13'10''", polygon: "1970,406,2425,406,2529,838,2031,841" },
+                    { id: 2, name: "Balcony", size: "6'6'' x 4'0''", polygon: "2020,324,2317,324,2335,406,2052,406,2041,338,2023,338" },
+                    { id: 3, name: "M Toilet", size: "7'6'' x 4'6''", polygon: "2031,841,2412,841,2455,1027,2057,1027" },
+                    { id: 4, name: "Bedroom -1", size: "10'0'' x 13'0''", polygon: "601,703,1062,701,1004,1196,479,1194" },
+                    { id: 5, name: "Walk-through Area", size: "3'7'' x 3'3''", polygon: "1859,719,1864,841,2036,841,2015,719" },
+                    { id: 6, name: "Passage", size: "5'2'' x 3'3''", polygon: "1552,714,1552,838,1867,841,1853,717" },
+                    { id: 7, name: "Toilet", size: "4'6'' x 7'6''", polygon: "328,881,551,876,482,1186,228,1191" },
+                    { id: 8, name: "Utility", size: "3'0'' x 6'2''", polygon: "1785,1117,1967,1119,1994,1403,1801,1403" },
+                    { id: 9, name: "Kitchen", size: "10'2'' x 7'11''", polygon: "1255,1050,1779,1053,1798,1398,1237,1398" },
+                    { id: 10, name: "Living", size: "10'6'' x 19'8''", polygon: "1088,406,1544,406,1554,830,1049,833" },
+                    { id: 11, name: "Dining", size: "1'8'' x 9'2''", polygon: "1046,830,1631,830,1639,1048,1022,1045" },
+                    { id: 12, name: "Balcony", size: "7'0'' x 5'0''", polygon: "1173,303,1475,303,1470,404,1162,412" },
+                    { id: 13, name: "Ent Foyer", size: "4'5'' x 6'0''", polygon: "1019,1038,1255,1043,1242,1297,993,1297" },
+                    { id: 14, name: "Bedroom -2", size: "10'0'' x 10'0''", polygon: "1544,402,1970,404,2010,717,1546,714" },
+                    { id: 15, name: "Toilet", size: "7'6'' x 4'6''", polygon: "1660,834,2031,836,2052,1022,1668,1022" },
 
                 ]
                 ,
                 roomstatic: [
-                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "2026,465,2441,473,2439,1027,2031,1024" },
-                    { id: 2, name: "Open Bal", size: "7'0'' x 5'0''", polygon: "2092,258,2380,260,2380,475,2089,472" },
-                    { id: 3, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "2063,1026,2375,1031,2375,1222,2065,1222" },
-                    { id: 4, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "1628,412,2026,404,2031,891,1634,897" },
-                    { id: 5, name: "Walk-through Area", size: "2'11'' x 3'3''", polygon: "1914,896,2026,893,2026,1026,1914,1028" },
-                    { id: 6, name: "Passage", size: "8'0'' x 3'3''", polygon: "1634,896,1914,898,1914,1023,1634,1023" },
-                    { id: 7, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1493,1023,1819,1026,1827,1214,1491,1214" },
-                    { id: 8, name: "Utility", size: "6'7'' x 3'3''", polygon: "1488,1224,1737,1224,1740,1362,1491,1359" },
-                    { id: 9, name: "Kitchen", size: "8'7'' x 10'9''", polygon: "1154,1020,1483,1018,1491,1426,1162,1426" },
-                    { id: 10, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "932,494,1631,489,1636,1014,935,1019" },
-                    { id: 11, name: "Open Bal", size: "11'5'' x 5'0''", polygon: "1059,285,1499,288,1496,494,1064,492" },
-                    { id: 12, name: "Ent Foyer", size: "5'9'' x 7'0''", polygon: "929,1017,1160,1017,1157,1283,929,1280" },
-                    { id: 13, name: "Bedroom -2", size: "11'0'' x 14'0''", polygon: "519,724,927,716,935,1241,516,1238" },
-                    { id: 14, name: "Toilet", size: "5'0'' x 8'0''", polygon: "331,922,524,919,527,1243,326,1243" },
+                   { id: 1, name: "Master Bedroom", size: "10'6'' x 13'10''", polygon: "1954,446,2362,443,2370,984,1959,986" },
+                    { id: 2, name: "Balcony", size: "6'6'' x 4'0''", polygon: "2010,255,2306,258,2306,353,2290,353,2288,446,2028,440,2023,356,2007,356" },
+                    { id: 3, name: "M Toilet", size: "7'6'' x 4'6''", polygon: "1959,979,1957,1173,2264,1176,2261,982" },
+                    { id: 4, name: "Bedroom -1", size: "10'0'' x 13'0''", polygon: "760,820,1152,820,1147,1340,760,1342" },
+                    { id: 5, name: "Walk-through Area", size: "3'7'' x 3'3''", polygon: "1816,846,1957,846,1957,984,1819,984" },
+                    { id: 6, name: "Passage", size: "5'2'' x 3'3''", polygon: "1597,846,1819,843,1819,981,1597,978" },
+                    { id: 7, name: "Toilet", size: "4'6'' x 7'6''", polygon: "572,1026,760,1023,760,1336,564,1339" },
+                    { id: 8, name: "Utility", size: "3'0'' x 6'2''", polygon: "1734,1270,1875,1270,1875,1524,1734,1524" },
+                    { id: 9, name: "Kitchen", size: "10'2'' x 7'11''", polygon: "1332,1204,1737,1204,1737,1524,1332,1524" },
+                    { id: 10, name: "Living", size: "10'6'' x 19'8''", polygon: "1141,440,1562,440,1565,915,1141,912" },
+                    { id: 11, name: "Dining", size: "1'8'' x 9'2''", polygon: "1141,915,1620,915,1623,1204,1152,1204" },
+                    { id: 12, name: "Balcony", size: "7'0'' x 5'0''", polygon: "1198,217,1510,219,1513,349,1491,349,1491,441,1211,441,1211,349,1195,346" },
+                    { id: 13, name: "Ent Foyer", size: "4'5'' x 6'0''", polygon: "1149,1204,1332,1206,1332,1431,1147,1429" },
+                    { id: 14, name: "Bedroom -2", size: "10'0'' x 10'0''", polygon: "1565,443,1951,443,1951,838,1560,843" },
+                    { id: 15, name: "Toilet", size: "7'6'' x 4'6''", polygon: "1647,978,1644,1174,1957,1174,1957,978" },
                 ]
             },
             {
                 id: 703,
 
                 name: "Unit No-3",
-                type: "3 BHK",
+                type: "2 BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(0,255,229,0.3)",
+                hoverColor: "rgba(255, 215, 0, 0.4)",
                 polygonPoints:
-                    "2891,1638,3076,1643,3050,1400,3341,1400,3341,1431,3523,1435,3536,1515,3770,1519,3774,1577,3845,1581,3854,1532,4357,1532,4388,1630,4534,1634,4627,1978,4561,1987,4583,2027,4569,2071,4609,2182,4371,2182,4344,2089,4331,2045,4371,2045,4357,1996,4295,1983,4309,2031,4247,2027,3977,2031,3951,1908,3805,1917,3818,1992,3531,1992,3412,1983,3421,2146,3037,2137,3041,2000,2917,1987",
+                    "3271,1400,3792,1396,3818,1502,4303,1497,4303,1533,4440,1542,4467,1670,4520,1674,4670,2120,4586,2120,4599,2191,4599,2257,4621,2319,4330,2323,4317,2239,4334,2191,4312,2116,4255,2116,4286,2222,4198,2226,4193,2284,3942,2288,3928,2235,3915,2169,3836,2169,3822,2094,3708,2102,3708,2169,3708,2231,3703,2288,3284,2306,3280,2226,3275,2155,3275,2094,3130,2098,3108,1670,3302,1674",
                 unitimage: floorunit3Type2,
                 image2D: floorunit2D3Type2,
                 image2Dstatic: floorunit2D3Type22,
                 image3D: floorunit3D3Type2,
                 rooms: [
-                    { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2132,631,2545,625,2665,1065,2201,1063" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2106,488,2341,494,2373,631,2137,634"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2288,1060,2572,1068,2604,1148,2596,1190,2620,1280,2304,1291,2286,1190,2304,1145" },
-                    { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1745,496,1758,625,2127,620,2108,493" },
-                    { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1740,721,2145,715,2209,1118,1761,1121" },
-                    { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1538,718,1745,718,1753,951,1544,954" },
+                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "1857,614,2296,617,2400,1096,1904,1098" },
+                    { id: 2, name: "Walk-In", size: "2'11'' x 3'3''", polygon: "1740,620,1748,718,1865,724,1859,620" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 5'0''", polygon: "2000,1093,2008,1175,1992,1215,2005,1337,2357,1334,2341,1231,2341,1178,2323,1091" },
+                    { id: 4, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "1875,469,2212,472,2241,617,1889,615" },
+                    { id: 5, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "1425,718,1867,720,1910,1151,1425,1151" },
+                    { id: 6, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1290,485,1619,480,1621,618,1282,623" },
 
-                    { id: 7, name: "Passage", size: "7'4'' x 3'3''", polygon: "1856,623,1864,723,2145,721,2129,623" },
+                    { id: 7, name: "Passage", size: "8'0'' x 3'3''", polygon: "1433,620,1431,715,1748,718,1740,620" },
 
-                    { id: 8, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1244,498,1536,501,1546,623,1234,623" },
-                    { id: 9, name: "Utility", size: "6'10'' x 3'7''", polygon: "1070,392,1056,485,1298,485,1300,392" },
-                    { id: 10, name: "Kitchen", size: "10'3'' x 11'6''", polygon: "714,350,1075,347,1038,623,648,625" },
-                    { id: 11, name: "Puja", size: "3'9'' x 6'0''", polygon: "1056,485,1191,485,1183,620,1035,617" },
-                    { id: 12, name: "Bedroom-2", size: "10'0'' x 12'0''", polygon: "1170,713,1530,721,1536,1071,1136,1071" },
-                    { id: 13, name: "Living/Dining", size: "21'0'' x 15'10''", polygon: "433,620,298,1073,985,1076,1136,1076,1167,713,1178,620" },
+                   
+                    { id: 8, name: "Utility", size: "6'2'' x 3'3''", polygon: "1290,382,1534,382,1534,475,1282,475" },
+                    { id: 9, name: "Kitchen", size: "8'6'' x 10'9''", polygon: "965,337,1290,337,1274,623,914,617" },
+                   
+                    { id: 10, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "679,614,1433,622,1423,1075,573,1067" },
 
-                    { id: 14, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "460,1076,985,1079,977,1155,987,1198,977,1285,428,1288,455,1198,439,1150" },
+                    { id: 11, name: "Open Bal", size: "11'5'' x 5'0''", polygon: "742,1064,729,1146,737,1199,721,1299,1250,1299,1258,1199,1250,1151,1256,1069" },
 
-                    { id: 15, name: "Passage", size: "20'2'' x 3'3''", polygon: "1178,623,1167,723,1867,718,1854,628" },
+                   
 
                 ],
 
                 roomstatic: [
-                    { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2291,633,2694,631,2697,1187,2278,1185" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2291,440,2522,443,2522,631,2291,634"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2371,1174,2369,1266,2347,1272,2350,1388,2642,1388,2644,1274,2628,1272,2625,1177" },
-                    { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1922,427,2290,421,2296,625,1920,623" },
-                    { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1893,1265,2298,1265,2296,756,1893,750" },
-                    { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1700,750,1901,747,1898,1065,1700,1065" },
+                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "1862,596,2296,591,2299,1181,1865,1181" },
+                    { id: 2, name: "Walk-In", size: "2'11'' x 3'3''", polygon: "1748,596,1751,728,1865,734,1865,599" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 5'0''", polygon: "1947,1177,2230,1185,2230,1273,2249,1273,2249,1405,1928,1405,1926,1281,1947,1278" },
+                    { id: 4, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "1897,376,2235,376,2235,593,1897,601" },
+                    { id: 5, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "1452,732,1859,729,1859,1245,1449,1251" },
+                    { id: 6, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1298,403,1637,400,1637,598,1301,593" },
 
-                    { id: 7, name: "Passage", size: "7'4'' x 3'3''", polygon: "2015,623,2018,753,2288,758,2288,625" },
+                    { id: 7, name: "Passage", size: "8'0'' x 3'3''", polygon: "1452,599,1452,731,1748,731,1748,593" },
 
-                    { id: 8, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1387,440,1705,443,1708,625,1385,625" },
-                    { id: 9, name: "Utility", size: "6'10'' x 3'7''", polygon: "1207,270,1448,270,1448,408,1207,413" },
-                    { id: 10, name: "Kitchen", size: "10'3'' x 11'6''", polygon: "823,201,1207,201,1202,623,815,623" },
-                    { id: 11, name: "Puja", size: "3'9'' x 6'0''", polygon: "1204,416,1355,413,1350,620,1199,620" },
-                    { id: 12, name: "Bedroom-2", size: "10'0'' x 12'0''", polygon: "1337,740,1713,745,1711,1198,1332,1196" },
-                    { id: 13, name: "Living/Dining", size: "21'0'' x 15'10''", polygon: "598,617,1345,623,1345,1198,595,1200" },
+                   
+                    { id: 8, name: "Utility", size: "6'2'' x 3'3''", polygon: "1290,241,1550,241,1550,385,1290,390" },
+                    { id: 9, name: "Kitchen", size: "8'6'' x 10'9''", polygon: "943,170,1288,170,1293,593,943,593" },
+                   
+                    { id: 10, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "702,590,1452,596,1446,1156,705,1149" },
 
-                    { id: 14, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "733,1195,1199,1198,1202,1280,1218,1277,1215,1402,717,1404,717,1283,733,1283" },
-
-                    { id: 15, name: "Passage", size: "20'2'' x 3'3''", polygon: "1342,625,1345,747,2021,750,2021,625" },
+                    { id: 11, name: "Open Bal", size: "11'5'' x 5'0''", polygon: "851,1153,1306,1153,1306,1249,1322,1251,1322,1373,843,1376,843,1246,851,1246" },
 
                 ],
 
@@ -7453,58 +7451,58 @@ export const floors = [
                 name: "Unit No-4",
                 type: "3 BHK",
                 size: "1400 sq.ft",
-                hoverColor: "rgba(0,255,229,0.3)",
+                hoverColor: "rgba(236,169,247,0.3)",
                 polygonPoints:
-                    "258,1983,369,1638,506,1638,537,1519,1036,1528,1045,1572,1120,1577,1146,1528,1354,1524,1380,1400,1857,1400,1848,1462,2008,1466,1977,1987,1871,1987,1848,2049,1840,2155,1473,2146,1477,2076,1460,2040,1464,1992,1380,1987,1367,2040,1053,2040,1036,2076,961,2071,961,2045,912,2040,894,2076,563,2076,594,1992,545,1992,515,2031,532,2071,515,2168,289,2173,311,2076,298,2036",
+                    "606,1533,901,1542,1215,1542,1241,1391,1766,1391,1758,1497,1956,1506,1947,1674,2322,1687,2331,1992,2247,1996,2243,2063,2005,2063,2005,2001,1934,2005,1921,2094,1771,2094,1766,2155,1762,2217,1758,2288,1325,2288,1325,2222,1312,2169,1334,2094,1206,2098,1179,2226,1104,2226,1100,2297,875,2301,853,2239,769,2231,796,2116,729,2111,707,2178,716,2244,698,2323,429,2328,442,2244,434,2195,460,2120,381,2111,513,1670,570,1670",
                 unitimage: floorunit4Type2,
                 image2D: floorunit2D4Type2,
                 image2Dstatic: floorunit2D4Type22,
                 image3D: floorunit3D4Type2,
                 rooms: [
-                    { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "436,628,847,636,768,1055,296,1060" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"645,501,863,498,852,636,611,639"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "391,1065,372,1142,380,1179,351,1280,669,1282,690,1184,669,1142,685,1057" },
-                    { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "863,488,1226,496,1212,617,841,623" },
-                    { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "826,718,1231,715,1202,1129,757,1129" },
-                    { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1228,718,1438,715,1435,951,1212,949" },
+                    { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "469,614,911,616,831,1101,334,1096" },
+                    { id: 2, name: "Walk-In", size: "2'11'' x 3'3''", polygon: "908,619,1025,619,1017,720,895,722" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 5'0''", polygon: "416,1095,752,1098,729,1172,750,1231,731,1347,376,1342,405,1223,392,1176" },
+                    { id: 4, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "575,471,903,468,874,619,535,614" },
+                    { id: 5, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "898,722,1321,722,1311,1152,823,1152" },
+                    { id: 6, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1162,473,1485,471,1488,619,1152,619" },
 
-                    { id: 7, name: "Passage", size: "7'4'' x 3'3''", polygon: "849,628,831,718,1091,721,1096,631" },
+                    { id: 7, name: "Passage", size: "8'0'' x 3'3''", polygon: "1025,616,1329,622,1332,720,1011,720" },
 
-                    { id: 8, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1438,503,1737,503,1745,625,1435,625" },
-                    { id: 9, name: "Utility", size: "6'10'' x 3'7''", polygon: "1684,395,1915,397,1931,485,1687,477" },
-                    { id: 10, name: "Kitchen", size: "10'3'' x 11'6''", polygon: "1909,344,2262,339,2328,628,2079,628,1941,625" },
-                    { id: 11, name: "Puja", size: "3'9'' x 6'0''", polygon: "1788,482,1923,485,1936,628,1793,623" },
-                    { id: 12, name: "Bedroom-2", size: "10'0'' x 12'0''", polygon: "1438,723,1809,718,1830,1071,1435,1065" },
-                    { id: 13, name: "Living/Dining", size: "21'0'' x 15'10''", polygon: "1803,631,2545,623,2673,1071,1833,1073" },
+                   
+                    { id: 8, name: "Utility", size: "6'2'' x 3'3''", polygon: "1250,381,1496,386,1491,471,1247,471" },
+                    { id: 9, name: "Kitchen", size: "8'6'' x 10'9''", polygon: "1496,333,1824,330,1853,619,1491,624" },
+                   
+                    { id: 10, name: "Bedroom-2", size: "11'0'' x 8'8''", polygon: "2089,613,2534,618,2611,883,2139,880" },
+                    { id: 11, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "1335,621,1321,1068,2171,1068,2086,618" },
 
-                    { id: 14, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "1989,1069,2524,1068,2538,1150,2527,1190,2551,1288,2000,1287,1989,1207,1997,1151" },
+                    { id: 12, name: "Open Bal", size: "11'5'' x 5'0''", polygon: "1483,1064,1480,1149,1483,1218,1480,1303,2010,1305,2002,1202,2004,1149,1994,1070" },
 
-                    { id: 15, name: "Passage", size: "20'2'' x 3'3''", polygon: "1098,625,1088,715,1806,718,1801,631" },
-                    { id: 16, name: "Ent Foyer", size: "5'9'' x 8'6''", polygon: "2283,424,2490,427,2545,623,2325,623" }
+                  
+                    { id: 13, name: "Ent Foyer", size: "5'6'' x 7'0''", polygon: "1843,434,2068,436,2094,624,1867,624" }
 
                 ]
                 ,
                 roomstatic: [
-                    { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "285,625,701,630,696,1184,285,1189" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"465,445,698,445,698,631,460,631"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "356,1196,621,1196,621,1278,637,1278,637,1408,345,1408,345,1299,356,1278" },
-                    { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "694,431,1067,434,1072,627,696,627" },
-                    { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "694,758,1096,756,1102,1271,696,1276" },
-                    { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1099,758,1287,758,1289,1071,1096,1071" },
+                   { id: 1, name: "Master Bedroom", size: "11'0'' x 15'0''", polygon: "626,691,1002,699,999,1207,626,1202" },
+                    { id: 2, name: "Walk-In", size: "2'11'' x 3'3''", polygon: "996,693,1102,693,1105,816,999,823" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 5'0''", polygon: "678,1204,932,1206,932,1283,945,1283,948,1408,665,1410,665,1291,678,1291" },
+                    { id: 4, name: "M Toilet", size: "8'0'' x 5'0''", polygon: "684,516,975,514,978,699,684,696" },
+                    { id: 5, name: "Bedroom -1", size: "10'6'' x 13'0''", polygon: "996,815,1359,812,1359,1259,1004,1267" },
+                    { id: 6, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1198,521,1497,525,1503,698,1198,698" },
 
-                    { id: 7, name: "Passage", size: "7'4'' x 3'3''", polygon: "696,631,698,758,955,758,958,633" },
+                    { id: 7, name: "Passage", size: "8'0'' x 3'3''", polygon: "1105,699,1356,696,1359,813,1105,813" },
 
-                    { id: 8, name: "Toilet", size: "8'0'' x 4'6''", polygon: "1289,448,1599,446,1597,626,1284,629" },
-                    { id: 9, name: "Utility", size: "6'10'' x 3'7''", polygon: "1544,273,1785,273,1785,419,1544,419" },
-                    { id: 10, name: "Kitchen", size: "10'3'' x 11'6''", polygon: "1787,204,2177,199,2179,631,1787,633" },
-                    { id: 11, name: "Puja", size: "3'9'' x 6'0''", polygon: "1650,419,1795,417,1795,629,1647,629" },
-                    { id: 12, name: "Bedroom-2", size: "10'0'' x 12'0''", polygon: "1289,758,1655,756,1658,1206,1289,1206" },
-                    { id: 13, name: "Living/Dining", size: "21'0'' x 15'10''", polygon: "1658,629,1658,1209,2412,1207,2407,629" },
+                   
+                    { id: 8, name: "Utility", size: "6'2'' x 3'3''", polygon: "1272,382,1499,389,1499,516,1272,514" },
+                    { id: 9, name: "Kitchen", size: "8'6'' x 10'9''", polygon: "1499,324,1801,324,1804,697,1499,697" },
+                   
+                    { id: 10, name: "Bedroom-2", size: "11'0'' x 8'8''", polygon: "2002,692,2378,695,2389,994,2005,991" },
+                    { id: 11, name: "Living/Dining", size: "19'3'' x 14'3''", polygon: "1356,696,2008,702,2005,1183,1364,1181" },
 
-                    { id: 14, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "1787,1210,2272,1207,2272,1289,2282,1292,2282,1411,1779,1411,1777,1292,1790,1282" },
+                    { id: 12, name: "Open Bal", size: "11'5'' x 5'0''", polygon: "1481,1177,1486,1256,1470,1256,1476,1372,1894,1375,1889,1267,1870,1267,1870,1179" },
 
-                    { id: 15, name: "Passage", size: "20'2'' x 3'3''", polygon: "958,636,958,753,1660,758,1658,636" },
-                    { id: 16, name: "Ent Foyer", size: "5'9'' x 8'6''", polygon: "2186,327,2401,330,2401,629,2187,631" }
+                  
+                    { id: 13, name: "Ent Foyer", size: "5'6'' x 7'0''", polygon: "1812,455,2005,461,2005,699,1804,699" }
 
                 ],
 
@@ -7534,7 +7532,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 1201,
                 name: "Unit No-1",
@@ -7645,7 +7643,7 @@ export const floors = [
                 image3D: floorunit3D3Type2,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2132,631,2545,625,2665,1065,2201,1063" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2106,488,2341,494,2373,631,2137,634"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2106,488,2341,494,2373,631,2137,634" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2288,1060,2572,1068,2604,1148,2596,1190,2620,1280,2304,1291,2286,1190,2304,1145" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1745,496,1758,625,2127,620,2108,493" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1740,721,2145,715,2209,1118,1761,1121" },
@@ -7668,7 +7666,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2291,633,2694,631,2697,1187,2278,1185" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2291,440,2522,443,2522,631,2291,634"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2291,440,2522,443,2522,631,2291,634" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2371,1174,2369,1266,2347,1272,2350,1388,2642,1388,2644,1274,2628,1272,2625,1177" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1922,427,2290,421,2296,625,1920,623" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1893,1265,2298,1265,2296,756,1893,750" },
@@ -7704,7 +7702,7 @@ export const floors = [
                 image3D: floorunit3D4Type2,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "436,628,847,636,768,1055,296,1060" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"645,501,863,498,852,636,611,639"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "645,501,863,498,852,636,611,639" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "391,1065,372,1142,380,1179,351,1280,669,1282,690,1184,669,1142,685,1057" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "863,488,1226,496,1212,617,841,623" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "826,718,1231,715,1202,1129,757,1129" },
@@ -7728,7 +7726,7 @@ export const floors = [
                 ,
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "285,625,701,630,696,1184,285,1189" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"465,445,698,445,698,631,460,631"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "465,445,698,445,698,631,460,631" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "356,1196,621,1196,621,1278,637,1278,637,1408,345,1408,345,1299,356,1278" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "694,431,1067,434,1072,627,696,627" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "694,758,1096,756,1102,1271,696,1276" },
@@ -7888,7 +7886,7 @@ export const floors = [
                 image3D: floorunit3D3Type2,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2132,631,2545,625,2665,1065,2201,1063" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2106,488,2341,494,2373,631,2137,634"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2106,488,2341,494,2373,631,2137,634" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2288,1060,2572,1068,2604,1148,2596,1190,2620,1280,2304,1291,2286,1190,2304,1145" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1745,496,1758,625,2127,620,2108,493" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1740,721,2145,715,2209,1118,1761,1121" },
@@ -7911,7 +7909,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2291,633,2694,631,2697,1187,2278,1185" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2291,440,2522,443,2522,631,2291,634"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2291,440,2522,443,2522,631,2291,634" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2371,1174,2369,1266,2347,1272,2350,1388,2642,1388,2644,1274,2628,1272,2625,1177" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1922,427,2290,421,2296,625,1920,623" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1893,1265,2298,1265,2296,756,1893,750" },
@@ -7947,7 +7945,7 @@ export const floors = [
                 image3D: floorunit3D4Type2,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "436,628,847,636,768,1055,296,1060" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"645,501,863,498,852,636,611,639"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "645,501,863,498,852,636,611,639" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "391,1065,372,1142,380,1179,351,1280,669,1282,690,1184,669,1142,685,1057" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "863,488,1226,496,1212,617,841,623" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "826,718,1231,715,1202,1129,757,1129" },
@@ -7971,7 +7969,7 @@ export const floors = [
                 ,
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "285,625,701,630,696,1184,285,1189" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"465,445,698,445,698,631,460,631"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "465,445,698,445,698,631,460,631" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "356,1196,621,1196,621,1278,637,1278,637,1408,345,1408,345,1299,356,1278" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "694,431,1067,434,1072,627,696,627" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "694,758,1096,756,1102,1271,696,1276" },
@@ -8019,7 +8017,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 2201,
                 name: "Unit No-1",
@@ -8130,7 +8128,7 @@ export const floors = [
                 image3D: floorunit3D3Type2,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2132,631,2545,625,2665,1065,2201,1063" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2106,488,2341,494,2373,631,2137,634"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2106,488,2341,494,2373,631,2137,634" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2288,1060,2572,1068,2604,1148,2596,1190,2620,1280,2304,1291,2286,1190,2304,1145" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1745,496,1758,625,2127,620,2108,493" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1740,721,2145,715,2209,1118,1761,1121" },
@@ -8153,7 +8151,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2291,633,2694,631,2697,1187,2278,1185" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2291,440,2522,443,2522,631,2291,634"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2291,440,2522,443,2522,631,2291,634" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2371,1174,2369,1266,2347,1272,2350,1388,2642,1388,2644,1274,2628,1272,2625,1177" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1922,427,2290,421,2296,625,1920,623" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1893,1265,2298,1265,2296,756,1893,750" },
@@ -8189,7 +8187,7 @@ export const floors = [
                 image3D: floorunit3D4Type2,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "436,628,847,636,768,1055,296,1060" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"645,501,863,498,852,636,611,639"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "645,501,863,498,852,636,611,639" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "391,1065,372,1142,380,1179,351,1280,669,1282,690,1184,669,1142,685,1057" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "863,488,1226,496,1212,617,841,623" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "826,718,1231,715,1202,1129,757,1129" },
@@ -8213,7 +8211,7 @@ export const floors = [
                 ,
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "285,625,701,630,696,1184,285,1189" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"465,445,698,445,698,631,460,631"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "465,445,698,445,698,631,460,631" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "356,1196,621,1196,621,1278,637,1278,637,1408,345,1408,345,1299,356,1278" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "694,431,1067,434,1072,627,696,627" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "694,758,1096,756,1102,1271,696,1276" },
@@ -8261,7 +8259,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 2701,
                 name: "Unit No-1",
@@ -8372,7 +8370,7 @@ export const floors = [
                 image3D: floorunit3D3Type2,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2132,631,2545,625,2665,1065,2201,1063" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2106,488,2341,494,2373,631,2137,634"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2106,488,2341,494,2373,631,2137,634" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2288,1060,2572,1068,2604,1148,2596,1190,2620,1280,2304,1291,2286,1190,2304,1145" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1745,496,1758,625,2127,620,2108,493" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1740,721,2145,715,2209,1118,1761,1121" },
@@ -8395,7 +8393,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2291,633,2694,631,2697,1187,2278,1185" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2291,440,2522,443,2522,631,2291,634"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2291,440,2522,443,2522,631,2291,634" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2371,1174,2369,1266,2347,1272,2350,1388,2642,1388,2644,1274,2628,1272,2625,1177" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1922,427,2290,421,2296,625,1920,623" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1893,1265,2298,1265,2296,756,1893,750" },
@@ -8431,7 +8429,7 @@ export const floors = [
                 image3D: floorunit3D4Type2,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "436,628,847,636,768,1055,296,1060" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"645,501,863,498,852,636,611,639"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "645,501,863,498,852,636,611,639" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "391,1065,372,1142,380,1179,351,1280,669,1282,690,1184,669,1142,685,1057" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "863,488,1226,496,1212,617,841,623" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "826,718,1231,715,1202,1129,757,1129" },
@@ -8455,7 +8453,7 @@ export const floors = [
                 ,
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "285,625,701,630,696,1184,285,1189" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"465,445,698,445,698,631,460,631"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "465,445,698,445,698,631,460,631" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "356,1196,621,1196,621,1278,637,1278,637,1408,345,1408,345,1299,356,1278" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "694,431,1067,434,1072,627,696,627" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "694,758,1096,756,1102,1271,696,1276" },
@@ -8614,7 +8612,7 @@ export const floors = [
                 image3D: floorunit3D3Type2,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2132,631,2545,625,2665,1065,2201,1063" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2106,488,2341,494,2373,631,2137,634"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2106,488,2341,494,2373,631,2137,634" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2288,1060,2572,1068,2604,1148,2596,1190,2620,1280,2304,1291,2286,1190,2304,1145" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1745,496,1758,625,2127,620,2108,493" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1740,721,2145,715,2209,1118,1761,1121" },
@@ -8637,7 +8635,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2291,633,2694,631,2697,1187,2278,1185" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2291,440,2522,443,2522,631,2291,634"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2291,440,2522,443,2522,631,2291,634" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2371,1174,2369,1266,2347,1272,2350,1388,2642,1388,2644,1274,2628,1272,2625,1177" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1922,427,2290,421,2296,625,1920,623" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1893,1265,2298,1265,2296,756,1893,750" },
@@ -8673,7 +8671,7 @@ export const floors = [
                 image3D: floorunit3D4Type2,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "436,628,847,636,768,1055,296,1060" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"645,501,863,498,852,636,611,639"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "645,501,863,498,852,636,611,639" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "391,1065,372,1142,380,1179,351,1280,669,1282,690,1184,669,1142,685,1057" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "863,488,1226,496,1212,617,841,623" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "826,718,1231,715,1202,1129,757,1129" },
@@ -8697,7 +8695,7 @@ export const floors = [
                 ,
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "285,625,701,630,696,1184,285,1189" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"465,445,698,445,698,631,460,631"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "465,445,698,445,698,631,460,631" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "356,1196,621,1196,621,1278,637,1278,637,1408,345,1408,345,1299,356,1278" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "694,431,1067,434,1072,627,696,627" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "694,758,1096,756,1102,1271,696,1276" },
@@ -8746,7 +8744,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 3601,
                 name: "Unit No-1",
@@ -8857,8 +8855,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -8881,7 +8879,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -8916,7 +8914,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -8938,12 +8936,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -8992,7 +8990,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-          units: [
+        units: [
             {
                 id: 3701,
                 name: "Unit No-1",
@@ -9103,7 +9101,7 @@ export const floors = [
                 image3D: floorunit3D3Type2,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2132,631,2545,625,2665,1065,2201,1063" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2106,488,2341,494,2373,631,2137,634"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2106,488,2341,494,2373,631,2137,634" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2288,1060,2572,1068,2604,1148,2596,1190,2620,1280,2304,1291,2286,1190,2304,1145" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1745,496,1758,625,2127,620,2108,493" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1740,721,2145,715,2209,1118,1761,1121" },
@@ -9126,7 +9124,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2291,633,2694,631,2697,1187,2278,1185" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2291,440,2522,443,2522,631,2291,634"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2291,440,2522,443,2522,631,2291,634" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2371,1174,2369,1266,2347,1272,2350,1388,2642,1388,2644,1274,2628,1272,2625,1177" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1922,427,2290,421,2296,625,1920,623" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1893,1265,2298,1265,2296,756,1893,750" },
@@ -9162,7 +9160,7 @@ export const floors = [
                 image3D: floorunit3D4Type2,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "436,628,847,636,768,1055,296,1060" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"645,501,863,498,852,636,611,639"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "645,501,863,498,852,636,611,639" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "391,1065,372,1142,380,1179,351,1280,669,1282,690,1184,669,1142,685,1057" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "863,488,1226,496,1212,617,841,623" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "826,718,1231,715,1202,1129,757,1129" },
@@ -9186,7 +9184,7 @@ export const floors = [
                 ,
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "285,625,701,630,696,1184,285,1189" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"465,445,698,445,698,631,460,631"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "465,445,698,445,698,631,460,631" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "356,1196,621,1196,621,1278,637,1278,637,1408,345,1408,345,1299,356,1278" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "694,431,1067,434,1072,627,696,627" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "694,758,1096,756,1102,1271,696,1276" },
@@ -9218,7 +9216,7 @@ export const floors = [
             "CCTV Surveillance at building entrance lobby, lifts, and parking entry & exit",
         ],
     },
-// typica
+    // typica
     {
         id: 38,
         title: "FLOOR-39",
@@ -9344,8 +9342,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -9368,7 +9366,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -9403,7 +9401,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -9425,12 +9423,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 
@@ -9478,7 +9476,7 @@ export const floors = [
             fourBHK: { bgColor: "#eca9f7", text: "4BHK" },
             threeBHK: { bgColor: "#00ffe5", text: "3BHK" },
         },
-         units: [
+        units: [
             {
                 id: 3901,
                 name: "Unit No-1",
@@ -9589,7 +9587,7 @@ export const floors = [
                 image3D: floorunit3D3Type2,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2132,631,2545,625,2665,1065,2201,1063" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2106,488,2341,494,2373,631,2137,634"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2106,488,2341,494,2373,631,2137,634" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2288,1060,2572,1068,2604,1148,2596,1190,2620,1280,2304,1291,2286,1190,2304,1145" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1745,496,1758,625,2127,620,2108,493" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1740,721,2145,715,2209,1118,1761,1121" },
@@ -9612,7 +9610,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2291,633,2694,631,2697,1187,2278,1185" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2291,440,2522,443,2522,631,2291,634"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2291,440,2522,443,2522,631,2291,634" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2371,1174,2369,1266,2347,1272,2350,1388,2642,1388,2644,1274,2628,1272,2625,1177" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1922,427,2290,421,2296,625,1920,623" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1893,1265,2298,1265,2296,756,1893,750" },
@@ -9648,7 +9646,7 @@ export const floors = [
                 image3D: floorunit3D4Type2,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "436,628,847,636,768,1055,296,1060" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"645,501,863,498,852,636,611,639"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "645,501,863,498,852,636,611,639" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "391,1065,372,1142,380,1179,351,1280,669,1282,690,1184,669,1142,685,1057" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "863,488,1226,496,1212,617,841,623" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "826,718,1231,715,1202,1129,757,1129" },
@@ -9672,7 +9670,7 @@ export const floors = [
                 ,
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "285,625,701,630,696,1184,285,1189" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"465,445,698,445,698,631,460,631"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "465,445,698,445,698,631,460,631" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "356,1196,621,1196,621,1278,637,1278,637,1408,345,1408,345,1299,356,1278" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "694,431,1067,434,1072,627,696,627" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "694,758,1096,756,1102,1271,696,1276" },
@@ -9831,8 +9829,8 @@ export const floors = [
                 image3D: floorunit3D3,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2283,679,2681,671,2813,1082,2381,1090" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2259,546,2478,544,2510,676,2290,679"},
-                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''" , polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2259,546,2478,544,2510,676,2290,679" },
+                    { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "2458,1078,2718,1076,2750,1152,2750,1195,2776,1290,2474,1290,2455,1206,2477,1163" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "1933,542,2264,542,2290,666,1944,666" },
                     { id: 5, name: "Bedroom -1", size: "11'0'' x 14'0''", polygon: "1928,755,2302,750,2400,1145,1968,1142" },
                     { id: 6, name: "Toilet", size: "5'0'' x 8'0''", polygon: "1740,761,1930,758,1954,981,1756,981" },
@@ -9855,7 +9853,7 @@ export const floors = [
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "2431,639,2839,644,2845,1195,2423,1195" },
-                      {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"2423,453,2657,456,2659,641,2421,641"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "2423,453,2657,456,2659,641,2421,641" },
                     { id: 3, name: "Open Bal", size: "13'0'' x 5'0''", polygon: "866,1209,1342,1212,1345,1410,858,1413" },
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "2068,444,2433,447,2433,638,2063,638" },
                     { id: 5, name: "Bedroom -2", size: "11'0'' x 14'6''", polygon: "326,425,728,422,726,973,315,976" },
@@ -9890,7 +9888,7 @@ export const floors = [
                 image3D: floorunit3D4,
                 rooms: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "319,668,709,670,619,1086,174,1084" },
-                    {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"513,543,735,541,712,668,478,668"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "513,543,735,541,712,668,478,668" },
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "252,1087,540,1087,522,1162,532,1199,508,1299,217,1297,233,1201,233,1159" },
 
                     { id: 4, name: "M Toilet", size: "10'0'' x 5'0''", polygon: "728,544,1062,546,1051,668,702,663" },
@@ -9912,12 +9910,12 @@ export const floors = [
 
                     { id: 17, name: "Puja", size: "3'9'' x 6'0''", polygon: "1602,533,1724,531,1732,658,1597,660" },
                     { id: 18, name: "Passage", size: "20'2'' x 3'3''", polygon: "945,670,929,753,1607,755,1607,670" },
-                    
+
                 ],
 
                 roomstatic: [
                     { id: 1, name: "Master Bedroom", size: "11'6'' x 15'6''", polygon: "163,601,571,604,571,1160,150,1163" },
-                       {id:2,name:"Walk-In",size:"6'4'' x 5'3''",polygon:"341,418,574,413,574,607,335,604"},
+                    { id: 2, name: "Walk-In", size: "6'4'' x 5'3''", polygon: "341,418,574,413,574,607,335,604" },
 
                     { id: 3, name: "Open Bal", size: "7'0'' x 4'11''", polygon: "218,1158,507,1160,509,1370,221,1370" },
 

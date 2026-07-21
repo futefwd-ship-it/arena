@@ -1,6 +1,8 @@
 import { useState } from 'react';
 
-import masterPlan from '../../assets/arena_masterplan4.png';
+// import masterPlan from '../../assets/arena_masterplan4.png';
+import masterPlan from '../../assets/MASTERPLAN-5.png';
+// import masterPlan from '../../assets/masterplan_new_18_7_2026.webp';
 
 // import Header from '../components/Header';
 // bg-gradient-to-b hover:bg-gradient-to-t hover:from-[#e6a524]  hover:to-[#696a68] from-[#e6a524]  to-[#696a68]

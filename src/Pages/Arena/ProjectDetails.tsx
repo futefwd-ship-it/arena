@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import masterPlan from '../../assets/arena_masterplan4.png';
+import masterPlan from '../../assets/MASTERPLAN-5.png';
 import WithoutbgHeader from '../../components/WithoutbgHeader';
 import Tooltip from '@mui/material/Tooltip';
 
@@ -38,7 +38,7 @@ export default function ProjectDetails() {
         {
             id: 4,
             polygon: "1238,714,1260,694,1283,683,1325,666,1336,680,1350,669,1362,680,1387,669,1407,646,1446,610,1497,595,1508,641,1483,669,1443,691,1452,708,1494,680,1514,717,1542,767,1472,810,1339,869,1308,796,1322,784,1294,782,1277,759,1308,745,1294,734,1260,751",
-            name: "FUTURE DEVELOPMENT",
+            name: "STADIA",
             link: "/arena_stadia",
             hoverColor: "rgba(255,112,67,0.4)",
         },
