@@ -8,7 +8,7 @@ import { floorsData, description } from '../../data/StadiaData';
 
 export default function Stadia() {
   const navigate = useNavigate();
-  const [hoveredFloor, setHoveredFloor] = useState<null>(null);
+  const [hoveredFloor, setHoveredFloor] = useState<any>(null);
 
 
 
@@ -93,26 +93,26 @@ export default function Stadia() {
         className="absolute inset-0 w-full h-full z-20 pointer-events-auto"
         aria-hidden="true"
       >
-        {/* <defs>
-            {floorsData.map((f) => (
-              <linearGradient
-                key={f.gradientId}
-                id={f.gradientId}
-                x1="0%"
-                y1="0%"
-                x2="100%"
-                y2="0%"
-              >
-                <stop offset="0%" stopColor="#fac870" stopOpacity="0.10" />
-                <stop offset="45%" stopColor="#fac870" stopOpacity="0.25" />
-                <stop offset="50%" stopColor="#fac870" stopOpacity="0.35" />
-                <stop offset="68%" stopColor="#E8941A" stopOpacity="0.45" />
-                <stop offset="60%" stopColor="#E8941A" stopOpacity="0.55" />
-                <stop offset="78%" stopColor="#E8941A" stopOpacity="0.60" />
-                <stop offset="100%" stopColor="#fac870" stopOpacity="0.65" />
-              </linearGradient>
-            ))}
-          </defs> */}
+        <defs>
+          {floorsData.map((f: any) => (
+            <linearGradient
+              key={`gradient-${f.id}`}
+              id={`gradient-${f.id}`}
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
+              <stop offset="0%" stopColor="#fac870" stopOpacity="0.10" />
+              <stop offset="45%" stopColor="#fac870" stopOpacity="0.25" />
+              <stop offset="50%" stopColor="#fac870" stopOpacity="0.35" />
+              <stop offset="68%" stopColor="#E8941A" stopOpacity="0.45" />
+              <stop offset="60%" stopColor="#E8941A" stopOpacity="0.55" />
+              <stop offset="78%" stopColor="#E8941A" stopOpacity="0.60" />
+              <stop offset="100%" stopColor="#fac870" stopOpacity="0.65" />
+            </linearGradient>
+          ))}
+        </defs>
 
         {floorsData.map((floor: any, index) => {
           const isActive = hoveredFloor?.id === floor.id
@@ -121,7 +121,10 @@ export default function Stadia() {
             <polygon
               key={floor.id}
               points={floor.polygon}
-              fill={isActive ? `url(#${floor.gradientId})` : "transparent"}
+              data-tooltip-id={`tooltip-${floor.id}`}
+              fill={isActive ? `url(#gradient-${floor.id})` : "transparent"}
+              stroke={isActive ? "#E8941A" : "transparent"}
+              strokeWidth={isActive ? "1.5" : "0"}
               strokeOpacity={isActive ? 0.6 : 0}
               className="cursor-pointer transition-all duration-300"
               style={{
@@ -141,9 +144,9 @@ export default function Stadia() {
       {floorsData.map((floor: any, index) => {
         return (<Tooltip
           id={`tooltip-${floor.id}`}
-          place="right"
+          place="left"
           content={floor.name}
-          className="border-l-4 border-l-orange-700 rounded-md"
+          className="border-r-4 border-r-orange-700 rounded-md"
           style={{
             backgroundColor: "rgba(0,0,0,0.7)",
             color: "white",

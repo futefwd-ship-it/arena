@@ -71,7 +71,8 @@ function App() {
   const showNavbarPages = ["/arena", "/arena_projecthighlights",
      "/arena_location", "/arena_master-plan", "/arena_project_details",
     "/arena_pavilion",  "/arena_citatel", "/arena_arcadia", 
-    "/arena_atheletica","/arena_greenfield","/arena_grandstand",];
+    "/arena_atheletica","/arena_greenfield","/arena_grandstand",
+    "/arena_stadia", "/arena_olympus"];
 
   const shouldShowNavbar = showNavbarPages.includes(location.pathname);
 
