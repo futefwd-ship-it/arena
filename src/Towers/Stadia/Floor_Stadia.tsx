@@ -163,7 +163,7 @@ export default function Floor_Stadia() {
                                 }}
                                 onMouseEnter={(e) => {
                                     e.stopPropagation();
-                                     setSelectedUnit(null); 
+                                    setSelectedUnit(null);
                                     // Toggle selection: if already selected, close it; otherwise, select new.
                                     setHoveredUnit(prev => prev === unit.id ? null : unit.id);
                                 }}

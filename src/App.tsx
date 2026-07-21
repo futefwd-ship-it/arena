@@ -57,6 +57,9 @@ import Location360 from './Pages/Arena/Location360.tsx'
 import Stadia from './Towers/Stadia/Stadia.tsx'
 import Floor_Stadia from './Towers/Stadia/Floor_Stadia.tsx'
 import Unit_Stadia from './Towers/Stadia/Unit_Stadia.tsx'
+import Olympus from './Towers/Olympus/Olympus.tsx'
+import Floor_Olympus from './Towers/Olympus/Floor_olympus.tsx'
+import Unit_Olympus from './Towers/Olympus/Unit_Olympus.tsx'
 function App() {
 
   const location = useLocation();
@@ -68,7 +71,12 @@ function App() {
   const showNavbarPages = ["/arena", "/arena_projecthighlights",
      "/arena_location", "/arena_master-plan", "/arena_project_details",
     "/arena_pavilion",  "/arena_citatel", "/arena_arcadia", 
+<<<<<<< HEAD
     "/arena_atheletica","/arena_greenfield","/arena_grandstand","/arena_stadia"];
+=======
+    "/arena_atheletica","/arena_greenfield","/arena_grandstand",
+    "/arena_stadia", "/arena_olympus"];
+>>>>>>> 247eac6d217680a19084d5ce86928d96de4d94cd
 
   const shouldShowNavbar = showNavbarPages.includes(location.pathname);
 
@@ -126,6 +134,10 @@ function App() {
          <Route path="/arena_stadia" element={<Stadia />} />
         <Route path="/arena_floorstadia/:id" element={<Floor_Stadia/>}/>
         <Route path="/arena_unitstadia/:id" element={<Unit_Stadia/>}/>
+
+        <Route path="/arena_olympus" element={<Olympus />} />
+        <Route path="/arena_floorolympus/:id" element={<Floor_Olympus />} />
+        <Route path="/arena_unitolympus/:id" element={<Unit_Olympus />} />
 
 
 

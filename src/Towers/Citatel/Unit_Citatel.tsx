@@ -67,7 +67,7 @@ export default function Unit_Citatel() {
         <WithoutbgHeader />
 
         {/* Left sidebar - rooms list for whichever layout */}
-        <div className="lg:w-[20%] mt-14 justify-center flex flex-col border-r p-4 rounded-lg lg:mt-4 h-screen">
+        <div className="lg:w-[20%] w-full flex-shrink-0 justify-center flex flex-col border-r p-4 rounded-lg mt-14 lg:mt-0 lg:h-full">
           <h3 className="bg-gradient-to-r from-[#e3a528] to-[#e8e8e8] border-l-4 border-[#b97f0b] text-[#333] text-center font-semibold mb-5 p-3 text-lg rounded-sm shadow-sm">
             {singleUnit.name}
           </h3>
@@ -109,7 +109,7 @@ export default function Unit_Citatel() {
         </div>
 
         {/* Center area - main image and SVG overlays */}
-        <div className="lg:w-[65%] w-full justify-center h-screen items-center flex">
+        <div className="flex-1 min-w-0 w-full justify-center h-full items-center flex">
           <div className="relative flex justify-center items-center w-full h-full p-2">
 
             {/* Active image */}
@@ -215,7 +215,7 @@ export default function Unit_Citatel() {
         </div>
 
         {/* Right sidebar - same UI buttons & features */}
-        <div className="lg:w-[15%] w-full flex flex-col justify-center p-4 border-l mt-5">
+        <div className="lg:w-[15%] flex-shrink-0 flex flex-col justify-center p-4 border-l mt-5 lg:mt-0 lg:h-full">
           <div className="bg-[#f0eeee] p-4 rounded-sm flex flex-col gap-2">
             <Button
               fullWidth
