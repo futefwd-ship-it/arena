@@ -59,6 +59,10 @@ import exteriortwr11 from '../../assets/entrance_tower/gallery_new/Cam02_Night_C
 // import exteriortwr12 from '../../assets/entrance_tower/Grandstand_interface.jpg';
 // import exteriortwr13 from '../../assets/entrance_tower/Atheletica_interface.jpg';
 // import exteriortwr14 from '../../assets/entrance_tower/Pavilion_interface.jpg';
+
+
+import exterior12 from '../../assets/gallery/Stadia Elevation Cam.webp';
+import exterior13 from '../../assets/gallery/Olympus Elevation.webp'
 import { IoReturnUpBackOutline } from "react-icons/io5";
 import sports1 from "../../assets/gallery/sports1.webp";
 import sports2 from "../../assets/gallery/sports2.webp";
@@ -126,7 +130,8 @@ export default function GalleryPage() {
     { src: exteriortwr9, title: 'Grandstand Tower' },
     { src: exteriortwr10, title: 'Grandstand Tower' },
     { src: exteriortwr11, title: 'Grandstand Tower' },
-    // { src: exteriortwr12, title: 'Grandstand Tower' },
+    { src: exterior12, title: 'Stadia Tower' },
+    { src: exterior13, title: 'Olympus Tower' },
     //  { src: exteriortwr13, title: 'Atheletica Tower' },
     // { src: exteriortwr14, title: 'Pavilion Tower' },
   ];

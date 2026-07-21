@@ -130,13 +130,8 @@ export default function Unit_Stadia() {
       <section className="flex flex-col lg:flex-row gap-2 overflow-auto lg:overflow-hidden h-screen w-full bg-[#e8e8e8] select-none">
         <WithoutbgHeader />
 
-<<<<<<< HEAD
         {/* Left sidebar - rooms list */}
         <div className="lg:w-[20%] w-full justify-center flex flex-col border-r p-4 rounded-lg mt-20 lg:mt-4 h-screen">
-=======
-        {/* Left sidebar - rooms list for whichever layout */}
-        <div className="lg:w-[20%] w-full flex-shrink-0 justify-center flex flex-col border-r p-4 rounded-lg mt-20 lg:mt-0 lg:h-full">
->>>>>>> 247eac6d217680a19084d5ce86928d96de4d94cd
           <h3 className="bg-gradient-to-r from-[#e3a528] to-[#e8e8e8] border-l-4 border-[#b97f0b] text-[#333] text-center font-semibold mb-5 p-3 text-lg rounded-sm shadow-sm">
             {singleUnit.name}
           </h3>
@@ -188,14 +183,8 @@ export default function Unit_Stadia() {
           )}
         </div>
 
-<<<<<<< HEAD
         {/* Center area - image & SVG overlays */}
         <div className="lg:w-[65%] w-full h-full flex items-center justify-center relative">
-=======
-        {/* Center area - main image and SVG overlays */}
-        {/* CENTER AREA - TOOLTIP FIXED HERE */}
-        <div className="flex-1 min-w-0 w-full h-full flex items-center justify-center relative">
->>>>>>> 247eac6d217680a19084d5ce86928d96de4d94cd
           <div
             ref={containerRef}
             className="relative inline-block w-full h-full max-h-screen"
@@ -264,13 +253,8 @@ export default function Unit_Stadia() {
           </div>
         </div>
 
-<<<<<<< HEAD
         {/* Right sidebar */}
         <div className="lg:w-[15%] flex flex-col justify-center p-4 border-l mt-5">
-=======
-        {/* Right sidebar - same UI buttons & features */}
-        <div className="lg:w-[15%] flex-shrink-0 flex flex-col justify-center p-4 border-l mt-5 lg:mt-0 lg:h-full">
->>>>>>> 247eac6d217680a19084d5ce86928d96de4d94cd
           <div className="bg-[#f0eeee] p-4 rounded-sm flex flex-col gap-2">
             <Button
               fullWidth

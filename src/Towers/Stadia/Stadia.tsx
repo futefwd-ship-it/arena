@@ -9,11 +9,7 @@ import { Tooltip } from 'react-tooltip';
 import { floorsData, description } from '../../data/StadiaData';
 export default function Pavilion() {
   const navigate = useNavigate();
-<<<<<<< HEAD
   const [hoveredId, setHoveredId] = useState<number | null>(null);
-=======
-  const [hoveredFloor, setHoveredFloor] = useState<any>(null);
->>>>>>> 247eac6d217680a19084d5ce86928d96de4d94cd
 
   const [isLargeScreen, setIsLargeScreen] = useState(true);
 
@@ -29,11 +25,10 @@ export default function Pavilion() {
 
   const handleBack = () => navigate(-1);
   return (
-    <div className="relative w-full h-screen flex items-center justify-center bg-[#E8E8E8]">
+    <div className="relative w-full h-screen flex items-center justify-center bg-[#E8E8E8] select-none">
       {/* Wrapper locked to exact dimensions matching viewBox (2979x1799) */}
       <div className="relative w-full max-h-screen aspect-[2979/1799]">
 
-<<<<<<< HEAD
         <img
           src={bgImage}
           alt="Arena"
@@ -83,149 +78,6 @@ export default function Pavilion() {
         />
       ))}
 
-=======
-
-      {/* <img src={bgImage} alt="Arena" className="w-full h-full object-contain lg:w-full lg:h-full lg:object-fill" /> */}
-
-
-      {/* {floorsData.map((floor) => (
-        <div key={floor.id}>
-          
-          <div
-            data-tooltip-id={`tooltip-${floor.id}`}
-            onDoubleClick={() => navigate(`/arena_floorpavilion/${floor.id}`)}
-            className="absolute cursor-pointer rounded-sm  transition-all duration-300"
-            style={{
-              top: floor.top,
-              left: floor.left,
-              height: `${floor.height}px`,
-              width: `${floor.width}px`,
-              transform: "translate(-50%, -50%)",
-              backgroundColor: hoveredId === floor.id ? floor.hoverColor : "transparent",
-            }}
-            onMouseEnter={() => setHoveredId(floor.id)}
-            onMouseLeave={() => setHoveredId(null)}
-          />
-
-        
-          <Tooltip
-            id={`tooltip-${floor.id}`}
-            place="right"
-            content={floor.name}
-            className="border-l-4 border-l-orange-700 rounded-md"
-            style={{
-              backgroundColor: "rgba(0,0,0,0.7)",
-              color: "white",
-              padding: "6px 12px",
-              fontSize: "14px",
-            }}
-          />
-        </div>
-      ))}       
-     */}
-
-
-      {/* <div className="relative w-full h-screen overflow-hidden bg-gray-900 flex items-center justify-center"> */}
-
-      {/* 1. Hình nền tòa nhà */}
-      <img
-        src={bgImage}// Thay bằng đường dẫn ảnh của bạn
-        alt="Building Skyline"
-        className="absolute inset-0 w-full h-full object-contain lg:object-cover"
-
-      />
-
-      {/* 2. Lớp SVG vẽ vùng Highlight */}
-      {/* ── Interactive SVG layer ── */}
-      <svg
-        viewBox={`0 0 3000 1688`}
-        /* FIX 3: Changed from 'none' to 'xMidYMid slice'. 
-          This forces the SVG vector layer to crop and scale exactly like the 'object-cover' image above,
-          keeping coordinates seamlessly pinned together on mobile, tablets, and desktops.
-        */
-        // preserveAspectRatio="xMidYMid slice"
-        preserveAspectRatio={isLargeScreen ? "xMidYMid slice" : "xMidYMid meet"}
-        className="absolute inset-0 w-full h-full z-20 pointer-events-auto"
-        aria-hidden="true"
-      >
-        <defs>
-          {floorsData.map((f: any) => (
-            <linearGradient
-              key={`gradient-${f.id}`}
-              id={`gradient-${f.id}`}
-              x1="0%"
-              y1="0%"
-              x2="100%"
-              y2="0%"
-            >
-              <stop offset="0%" stopColor="#fac870" stopOpacity="0.10" />
-              <stop offset="45%" stopColor="#fac870" stopOpacity="0.25" />
-              <stop offset="50%" stopColor="#fac870" stopOpacity="0.35" />
-              <stop offset="68%" stopColor="#E8941A" stopOpacity="0.45" />
-              <stop offset="60%" stopColor="#E8941A" stopOpacity="0.55" />
-              <stop offset="78%" stopColor="#E8941A" stopOpacity="0.60" />
-              <stop offset="100%" stopColor="#fac870" stopOpacity="0.65" />
-            </linearGradient>
-          ))}
-        </defs>
-
-        {floorsData.map((floor: any, index) => {
-          const isActive = hoveredFloor?.id === floor.id
-          // || selectedRow === index;
-          return (
-            <polygon
-              key={floor.id}
-              points={floor.polygon}
-              data-tooltip-id={`tooltip-${floor.id}`}
-              fill={isActive ? `url(#gradient-${floor.id})` : "transparent"}
-              stroke={isActive ? "#E8941A" : "transparent"}
-              strokeWidth={isActive ? "1.5" : "0"}
-              strokeOpacity={isActive ? 0.6 : 0}
-              className="cursor-pointer transition-all duration-300"
-              style={{
-                filter: isActive
-                  ? "drop-shadow(0 0 6px rgba(245,166,35,0.35))"
-                  : "none",
-              }}
-              // onClick={() => navigate(`/unitplan/${floor.id}`)}
-              onDoubleClick={() => navigate(`/arena_floorstadia/${floor.id}`)}
-              onMouseEnter={() => setHoveredFloor(floor)}
-              onMouseLeave={() => setHoveredFloor(null)}
-            />
-          );
-        })}
-      </svg>
-
-      {floorsData.map((floor: any, index) => {
-        return (<Tooltip
-          id={`tooltip-${floor.id}`}
-          place="left"
-          content={floor.name}
-          className="border-r-4 border-r-orange-700 rounded-md"
-          style={{
-            backgroundColor: "rgba(0,0,0,0.7)",
-            color: "white",
-            padding: "6px 12px",
-            fontSize: "14px",
-          }}
-        />)
-      })}
-
-      {/* ── Tooltip ── 
-        {hoveredFloor && (() => {
-          const { x, y } = svgToPercent(hoveredFloor.tooltipX, hoveredFloor.tooltipY);
-          return (
-            <div
-              className="absolute z-30 flex items-center pointer-events-none transition-all duration-150"
-              style={{
-                left: `${x}%`,
-                top: `${y}%`,
-                transform: "translateY(-50%)",
-              }}
-            >
-             
-              <ArrowPointer />
->>>>>>> 247eac6d217680a19084d5ce86928d96de4d94cd
 
       {/* Back Button */}
       <div

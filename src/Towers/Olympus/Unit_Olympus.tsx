@@ -17,6 +17,7 @@ export default function Unit_Olympus() {
     const [zoomOpen, setZoomOpen] = useState(false);
     const [clickedRoomDefault, setClickedRoomDefault] = useState<number | null>(null);
     const [clickedRoom2D, setClickedRoom2D] = useState<number | null>(null);
+    const [hoveredRoom, setHoveredRoom] = useState<number | null>(null);
 
     // Reference to the image container to calculate relative tooltip positions
     const containerRef = useRef<HTMLDivElement>(null);
@@ -50,6 +51,7 @@ export default function Unit_Olympus() {
         setSvgTooltip(null);
         setClickedRoomDefault(null);
         setClickedRoom2D(null);
+        setHoveredRoom(null);
     }, [activeLayout]);
 
     const getActiveImage = () => {
@@ -91,6 +93,27 @@ export default function Unit_Olympus() {
         //   return singleUnit.unitimage; // default
         // };
     }
+
+    const handleMouseEnter = (e: React.MouseEvent, room: any) => {
+        setHoveredRoom(room.id);
+        if (containerRef.current) {
+            const rect = containerRef.current.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            setSvgTooltip({
+                id: room.id,
+                x: x,
+                y: y,
+                name: room.name,
+                size: room.size,
+            });
+        }
+    };
+
+    const handleMouseLeave = () => {
+        setHoveredRoom(null);
+        setSvgTooltip(null);
+    };
     return (
         <>
             <section className="flex flex-col lg:flex-row gap-2 overflow-auto lg:overflow-hidden h-screen w-full p-2 bg-[#e8e8e8] select-none">
@@ -137,28 +160,28 @@ export default function Unit_Olympus() {
                                         ? "bg-[#f7f6f6] text-black"
                                         : "bg-white text-black";
 
-                                if (isDefaultLayout && clickedRoomDefault === room.id) {
-                                    bgClass = "bg-[rgba(184,38,217,0.9)] text-white";
-                                }
+                                 if (hoveredRoom === room.id) {
+                                     bgClass = "bg-[rgba(184,38,217,0.9)] text-white";
+                                 } else if (isDefaultLayout && clickedRoomDefault === room.id) {
+                                     bgClass = "bg-[rgba(184,38,217,0.9)] text-white";
+                                 } else if (is2DLayout && clickedRoom2D === room.id) {
+                                     bgClass = "bg-[rgba(184,38,217,0.9)] text-white";
+                                 }
 
-                                if (is2DLayout && clickedRoom2D === room.id) {
-                                    bgClass = "bg-[rgba(184,38,217,0.9)] text-white";
-                                }
-
-                                return (
-                                    <div
-                                        key={room.id}
-                                        // onClick={() =>
-                                        //   isDefaultLayout
-                                        //     ? setClickedRoomDefault(room.id)
-                                        //     : setClickedRoom2D(room.id)
-                                        // }
-                                        // onMouseEnter={() => isDefaultLayout ? setHoveredRoomDefault(room.id) : setHoveredRoom2D(room.id)}
-                                        // onMouseLeave={() => isDefaultLayout ? setHoveredRoomDefault(null) : setHoveredRoom2D(null)}
-                                        // onClick={() => isDefaultLayout ? setClickedRoomDefault(room.id) : setClickedRoom2D(room.id)}
-                                        // onClick={()=>setClickedRoomDefault(room.id)}
-                                        className={`${bgClass} transition-all mb-1 ease-in-out duration-300 p-2 border rounded-lg flex justify-between items-center`}
-                                    >
+                                 return (
+                                     <div
+                                         key={room.id}
+                                         onMouseEnter={() => setHoveredRoom(room.id)}
+                                         onMouseLeave={() => setHoveredRoom(null)}
+                                         onClick={() => {
+                                             if (isDefaultLayout) {
+                                                 setClickedRoomDefault(prev => prev === room.id ? null : room.id);
+                                             } else {
+                                                 setClickedRoom2D(prev => prev === room.id ? null : room.id);
+                                             }
+                                         }}
+                                         className={`${bgClass} transition-all mb-1 ease-in-out duration-300 p-2 border rounded-lg flex justify-between items-center cursor-pointer`}
+                                     >
                                         <h4 className="font-semibold text-[13px]">{room.name}</h4>
                                         <p className="text-[12px]">{room.size}</p>
                                     </div>
@@ -193,11 +216,11 @@ export default function Unit_Olympus() {
                                     <polygon
                                         key={room.id}
                                         points={room.polygon}
-                                        fill={(activeLayout === "default" ? clickedRoomDefault : clickedRoom2D) === room.id
+                                        fill={(hoveredRoom === room.id || (activeLayout === "default" ? clickedRoomDefault : clickedRoom2D) === room.id)
                                             ? "rgba(184, 38, 217, 0.4)" : "transparent"}
-                                        className=" transition-colors duration-300"
-                                        // onMouseEnter={(e) => handlePolygonClick(e, room, activeLayout as any)}
-                                        // onMouseLeave={ ()=>handlePolygonLeave()}
+                                        className="transition-colors duration-300 cursor-pointer focus:outline-none outline-none"
+                                        onMouseEnter={(e) => handleMouseEnter(e, room)}
+                                        onMouseLeave={handleMouseLeave}
                                         onClick={(e) => handlePolygonClick(e, room, activeLayout as any)}
                                     />
                                 ))}

@@ -52,7 +52,7 @@ export default function Floor_Olympus() {
 
                 <div
 
-                    className="bg-[#F0EEEE] p-4 rounded-lg w-full"
+                    className="bg-[#F0EEEE] p-2 rounded-lg w-full"
                 >
                     {/* <h3 className="text-lg font-semibold mb-4 text-center"> {singleFloor.title}</h3> */}
                     <h3 className="text-lg font-semibold mb-4   flex items-center gap-4 shadow-md">
@@ -68,16 +68,12 @@ export default function Floor_Olympus() {
                             <li
                                 className={`
                 cursor-pointer transition-transform duration-200 mt-2 flex p-1 rounded-sm justify-between border-b pb-2 text-[12px]
-                ${selectedUnit === unit.id ? "scale-105 bg-slate-200" : "scale-100"}
+                ${selectedUnit === unit.id || hoveredUnit === unit.id ? "scale-105 bg-slate-200" : "scale-100"}
             `}
-                                // onMouseEnter={() => setHoveredUnit(unit.id)}
-                                // onMouseLeave={() => setHoveredUnit(null)}
-                                onDoubleClick={() => setSelectedUnit(unit.id)}
-                            // onClick={(e) => {
-                            //     e.stopPropagation();
-                            //     // Toggle selection: if already selected, close it; otherwise, select new.
-                            //     setSelectedUnit(prev => prev === unit.id ? null : unit.id);
-                            // }}
+                                onMouseEnter={() => setHoveredUnit(unit.id)}
+                                onMouseLeave={() => setHoveredUnit(null)}
+                                // onClick={() => setSelectedUnit(prev => prev === unit.id ? null : unit.id)}
+                                onDoubleClick={() => navigate(`/arena_unitolympus/${unit.id}`)}
                             >
                                 <p>{unit.name}</p> <p>{unit.type}</p>
                             </li>
@@ -155,20 +151,16 @@ export default function Floor_Olympus() {
                                 }}
                                 onMouseEnter={(e) => {
                                     e.stopPropagation();
-                                    setSelectedUnit(null);
-                                    // Toggle selection: if already selected, close it; otherwise, select new.
-                                    setHoveredUnit(prev => prev === unit.id ? null : unit.id);
+                                    setHoveredUnit(unit.id);
                                 }}
                                 onMouseLeave={(e) => {
                                     e.stopPropagation();
-                                    // Toggle selection: if already selected, close it; otherwise, select new.
                                     setHoveredUnit(null);
                                 }}
-                                onClick={(e) => {
-                                    e.stopPropagation();
-                                    // Toggle selection: if already selected, close it; otherwise, select new.
-                                    setSelectedUnit(prev => prev === unit.id ? null : unit.id);
-                                }}
+                                // onClick={(e) => {
+                                //     e.stopPropagation();
+                                //     setSelectedUnit(prev => prev === unit.id ? null : unit.id);
+                                // }}
                                 onDoubleClick={() => navigate(`/arena_unitolympus/${unit.id}`)}
                             />
                         </Tooltip>

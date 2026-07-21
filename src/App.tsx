@@ -71,12 +71,7 @@ function App() {
   const showNavbarPages = ["/arena", "/arena_projecthighlights",
      "/arena_location", "/arena_master-plan", "/arena_project_details",
     "/arena_pavilion",  "/arena_citatel", "/arena_arcadia", 
-<<<<<<< HEAD
-    "/arena_atheletica","/arena_greenfield","/arena_grandstand","/arena_stadia"];
-=======
-    "/arena_atheletica","/arena_greenfield","/arena_grandstand",
-    "/arena_stadia", "/arena_olympus"];
->>>>>>> 247eac6d217680a19084d5ce86928d96de4d94cd
+    "/arena_atheletica","/arena_greenfield","/arena_grandstand","/arena_stadia","/arena_olympus"];
 
   const shouldShowNavbar = showNavbarPages.includes(location.pathname);
 
