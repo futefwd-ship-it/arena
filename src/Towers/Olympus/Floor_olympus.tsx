@@ -17,11 +17,10 @@ export default function Floor_Olympus() {
     const [hoveredUnit,
         setHoveredUnit
     ] = useState<number | null>(null);
-    const [selectedUnit, setSelectedUnit] = useState<number | null>(null);
+    const [selectedUnit] = useState<number | null>(null);
     const [zoomOpen, setZoomOpen] = useState(false);
     const [image3DOpen, setImage3DOpen] = useState(false);
 
-    console.log("singleFloor", singleFloor)
     if (!singleFloor) {
         return (
             <div className="flex flex-col items-center justify-center h-screen bg-[#5d5c61] text-center p-6">
@@ -277,7 +276,7 @@ export default function Floor_Olympus() {
                         <CloseIcon />
                     </IconButton>
                     <img
-                        src={(singleFloor as any).image1}
+                        src={(singleFloor as unknown as { image1?: string }).image1}
                         alt={`Floor ${singleFloor.id}`}
                         className="max-h-[90vh] max-w-[90vw] rounded-lg shadow-lg"
                     />

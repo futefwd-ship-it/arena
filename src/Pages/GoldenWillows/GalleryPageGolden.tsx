@@ -141,7 +141,7 @@ export default function GalleryPageGolden() {
                             <div key={index} className='bg-white rounded-md overflow-hidden'>
                                 <img
                                     src={item.image}
-                                    alt=""
+                                    alt={item.title || `Interior view ${index + 1}`}
                                     onClick={() => openPreview('interior', index)}
                                     className="w-full h-48 object-cover hover:scale-105 transition-all duration-300"
                                 />
@@ -159,7 +159,7 @@ export default function GalleryPageGolden() {
                                 <img
                                     src={item.image}
                                     onClick={() => openPreview('exterior', index)}
-                                    alt=""
+                                    alt={item.title || `Exterior view ${index + 1}`}
                                     className=" w-full h-48 object-fill hover:scale-105 transition-all duration-300"
                                 />
                             </div>
@@ -176,7 +176,7 @@ export default function GalleryPageGolden() {
                                 <img
                                     src={item.image}
                                     onClick={() => openPreview('amenities', index)}
-                                    alt=""
+                                    alt={item.title || `Amenities view ${index + 1}`}
                                     className="w-full h-48 object-cover hover:scale-105 transition-all duration-300"
                                 />
                             </div>
@@ -210,7 +210,7 @@ export default function GalleryPageGolden() {
 
                         })()}
 
-                        alt="" className="md:w-[60%] md:h-[75%] h-[50%] w-[80%] object-cotain rounded-md " />
+                        alt={previewCategory ? `${previewCategory} preview` : "Gallery preview"} className="md:w-[60%] md:h-[75%] h-[50%] w-[80%] object-cotain rounded-md " />
 
                     {/* Next */}
                     <button

@@ -21,7 +21,6 @@ export default function Floor_Stadia() {
     const [zoomOpen, setZoomOpen] = useState(false);
     const [image3DOpen, setImage3DOpen] = useState(false);
 
-    console.log("singleFloor", singleFloor)
     if (!singleFloor) {
         return (
             <div className="flex flex-col items-center justify-center h-screen bg-[#5d5c61] text-center p-6">

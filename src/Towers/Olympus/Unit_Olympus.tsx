@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import { Button, IconButton } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import WithoutbgHeader from "../../components/WithoutbgHeader";
+import type { RoomHotspot } from "../../types/room";
 
 type LayoutType = "default" | "2D" | "2Dstatic";
 
@@ -30,6 +31,13 @@ export default function Unit_Olympus() {
         size: string;
     } | null>(null);
 
+    useEffect(() => {
+        setSvgTooltip(null);
+        setClickedRoomDefault(null);
+        setClickedRoom2D(null);
+        setHoveredRoom(null);
+    }, [activeLayout]);
+
     // fallback if unit not found
     if (!singleUnit) {
         return (
@@ -47,13 +55,6 @@ export default function Unit_Olympus() {
         );
     }
 
-    useEffect(() => {
-        setSvgTooltip(null);
-        setClickedRoomDefault(null);
-        setClickedRoom2D(null);
-        setHoveredRoom(null);
-    }, [activeLayout]);
-
     const getActiveImage = () => {
         if (activeLayout === "2D") return singleUnit.image2D;
         if (activeLayout === "2Dstatic") return singleUnit.image2Dstatic;
@@ -61,7 +62,7 @@ export default function Unit_Olympus() {
     };
 
     // Logic to calculate tooltip position relative to the container
-    const handlePolygonClick = (e: React.MouseEvent, room: any, layout: "default" | "2D") => {
+    const handlePolygonClick = (e: React.MouseEvent, room: RoomHotspot, layout: "default" | "2D") => {
         e.stopPropagation();
         if (containerRef.current) {
             const rect = containerRef.current.getBoundingClientRect();
@@ -94,7 +95,7 @@ export default function Unit_Olympus() {
         // };
     }
 
-    const handleMouseEnter = (e: React.MouseEvent, room: any) => {
+    const handleMouseEnter = (e: React.MouseEvent, room: RoomHotspot) => {
         setHoveredRoom(room.id);
         if (containerRef.current) {
             const rect = containerRef.current.getBoundingClientRect();
@@ -128,7 +129,7 @@ export default function Unit_Olympus() {
                     {activeLayout !== "2Dstatic" && (
                         <div className="lg:max-h-[450px] max-h-[300px] overflow-y-scroll p-2 bg-[rgba(251,245,222,0.6)] rounded-md ">
                             {/* Show the list from rooms (default) or roomstatic (2D) depending on activeLayout */}
-                            {/* {(activeLayout === "default" ? singleUnit.rooms : singleUnit.roomstatic)?.map((room: any, index: number) => {
+                            {/* {(activeLayout === "default" ? singleUnit.rooms : singleUnit.roomstatic)?.map((room: RoomHotspot, index: number) => {
                 // choose states depending on layout
                 const isDefaultLayout = activeLayout === "default";
                  const is2DLayout = activeLayout === "2D";
@@ -150,7 +151,7 @@ export default function Unit_Olympus() {
                             {(activeLayout === "default"
                                 ? singleUnit.rooms
                                 : singleUnit.roomstatic
-                            )?.map((room: any, index: number) => {
+                            )?.map((room: RoomHotspot, index: number) => {
 
                                 const isDefaultLayout = activeLayout === "default";
                                 const is2DLayout = activeLayout === "2D";
@@ -212,7 +213,7 @@ export default function Unit_Olympus() {
                                 preserveAspectRatio="xMidYMid meet"
                                 onClick={() => setSvgTooltip(null)}
                             >
-                                {(activeLayout === "default" ? singleUnit.rooms : singleUnit.roomstatic)?.map((room: any) => (
+                                {(activeLayout === "default" ? singleUnit.rooms : singleUnit.roomstatic)?.map((room: RoomHotspot) => (
                                     <polygon
                                         key={room.id}
                                         points={room.polygon}
@@ -221,7 +222,7 @@ export default function Unit_Olympus() {
                                         className="transition-colors duration-300 cursor-pointer focus:outline-none outline-none"
                                         onMouseEnter={(e) => handleMouseEnter(e, room)}
                                         onMouseLeave={handleMouseLeave}
-                                        onClick={(e) => handlePolygonClick(e, room, activeLayout as any)}
+                                        onClick={(e) => handlePolygonClick(e, room, activeLayout as "default" | "2D")}
                                     />
                                 ))}
                             </svg>

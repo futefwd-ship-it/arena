@@ -1,11 +1,11 @@
 declare global{
   interface Window{
-    global:any;
+    global: Window;
   }
 }
 
-if(typeof (window as any).global==="undefined"){
-  (window as any).global= window;
+if(typeof window.global==="undefined"){
+  window.global = window;
 }
 
 import { createRoot } from 'react-dom/client'

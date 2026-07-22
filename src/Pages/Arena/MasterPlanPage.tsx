@@ -18,8 +18,8 @@ import { Link } from 'react-router-dom';
 
 
 export default function MasterPlanPage() {
-    const [hoveredId, setHoveredId] = useState<Number | null>(null);
-    const [selectedId, setSelectedId] = useState<Number | null>(null);
+    const [hoveredId, setHoveredId] = useState<number | null>(null);
+    const [selectedId, setSelectedId] = useState<number | null>(null);
 
     // ...new Map gives unique values
     const uniqueAmenities = [...new Map(amenities.map(item => [item.id, item])).values()];

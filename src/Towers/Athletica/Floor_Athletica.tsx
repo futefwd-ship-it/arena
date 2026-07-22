@@ -10,7 +10,7 @@ export default function Floor_Athletica() {
     const navigate = useNavigate();
 
     const singleFloor = id ? floors.find((f) => f.id === Number(id)) : floors[0];
-    const [hoveredUnit, setHoveredUnit] = useState<Number | null>(null);
+    const [hoveredUnit, setHoveredUnit] = useState<number | null>(null);
     const [selectedUnit, setSelectedUnit] = useState<number | null>(null);
     const [zoomOpen, setZoomOpen] = useState(false);
 

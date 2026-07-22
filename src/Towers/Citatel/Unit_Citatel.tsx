@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Tooltip, Button, IconButton } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import WithoutbgHeader from "../../components/WithoutbgHeader";
+import type { RoomHotspot } from "../../types/room";
 
 type LayoutType = "default" | "2D"  | "2Dstatic";
 
@@ -75,7 +76,7 @@ export default function Unit_Citatel() {
         {activeLayout !== "2Dstatic" &&( 
            <div className="lg:max-h-[450px] max-h-[270px] overflow-y-scroll p-2 bg-[rgba(251,245,222,0.6)] rounded-md ">
             {/* Show the list from rooms (default) or roomstatic (2D) depending on activeLayout */}
-            {(activeLayout === "default" ? singleUnit.rooms : singleUnit.roomstatic)?.map((room: any, index: number) => {
+            {(activeLayout === "default" ? singleUnit.rooms : singleUnit.roomstatic)?.map((room: RoomHotspot, index: number) => {
               // choose states depending on layout
               const isDefaultLayout = activeLayout === "default";
 
@@ -125,7 +126,7 @@ export default function Unit_Citatel() {
             {/* SVG overlays for polygons: show only for default and 2D */}
             {activeLayout === "default" && singleUnit.rooms && (
               <svg className="absolute inset-0 w-full h-full" viewBox="0 0 3000 1688">
-                {singleUnit.rooms.map((room: any) => (
+                {singleUnit.rooms.map((room: RoomHotspot) => (
                   <Tooltip
                     key={`r-default-${room.id}`}
                     title={`${room.name} - ${room.size}`}
@@ -169,7 +170,7 @@ export default function Unit_Citatel() {
 
             {activeLayout === "2D" && singleUnit?.roomstatic && (
               <svg className="absolute inset-0 w-full h-full" viewBox="0 0 3000 1688">
-                {singleUnit?.roomstatic.map((room: any) => (
+                {singleUnit?.roomstatic.map((room: RoomHotspot) => (
                   <Tooltip
                     key={`r-2d-${room.id}`}
                     title={`${room.name} - ${room.size}`}

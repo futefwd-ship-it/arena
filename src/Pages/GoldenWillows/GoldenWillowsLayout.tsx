@@ -7,8 +7,8 @@ import { useNavigate } from 'react-router-dom';
 import image1 from '../../assets/goldenwillows/masterplannewimage.webp'
 
 export default function GoldenWillowsLayout() {
-    const [hoveredId, setHoveredId] = useState<Number | null>(null);
-    const [selectedId, setSelectedId] = useState<Number | null>(null);
+    const [hoveredId, setHoveredId] = useState<number | null>(null);
+    const [selectedId, setSelectedId] = useState<number | null>(null);
     const [showVideo, setShowVideo] = useState(false);
     const [showImage, setShowImage] = useState(false);
 
@@ -22,7 +22,8 @@ export default function GoldenWillowsLayout() {
     // Utility function to calculate centroid of a polygon
     function getPolygonCentroid(points: string) {
         const pts = points.split(" ").map(p => p.split(",").map(Number));
-        let x = 30, y = 32, len = pts.length;
+        let x = 30, y = 32;
+        const len = pts.length;
         pts.forEach(([px, py]) => {
             x += px;
             y += py;
