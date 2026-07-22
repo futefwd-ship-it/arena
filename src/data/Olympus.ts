@@ -644,7 +644,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 201,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -701,7 +701,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 202,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -758,7 +758,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 203,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -819,7 +819,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 204,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -880,7 +880,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 205,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -938,7 +938,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 206,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -996,7 +996,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 207,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1055,7 +1055,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 208,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1134,7 +1134,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 301,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1191,7 +1191,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 302,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1248,7 +1248,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 303,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1309,7 +1309,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 304,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1370,7 +1370,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 305,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -1428,7 +1428,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 306,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -1486,7 +1486,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 307,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1545,7 +1545,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 308,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1624,7 +1624,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 401,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1681,7 +1681,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 402,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1738,7 +1738,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 403,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1799,7 +1799,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 404,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -1860,7 +1860,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 405,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -1918,7 +1918,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 406,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -1976,7 +1976,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 407,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2035,7 +2035,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 408,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2113,7 +2113,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 501,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2170,7 +2170,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 502,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2227,7 +2227,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 503,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2288,7 +2288,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 504,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2349,7 +2349,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 505,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -2407,7 +2407,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 506,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -2465,7 +2465,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 507,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2524,7 +2524,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 508,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2602,7 +2602,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 601,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2659,7 +2659,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 602,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2716,7 +2716,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 603,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2777,7 +2777,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 604,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -2838,7 +2838,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 605,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -2896,7 +2896,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 606,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -2954,7 +2954,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 607,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3013,7 +3013,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 608,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3091,7 +3091,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 801,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3148,7 +3148,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 802,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3205,7 +3205,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 803,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3266,7 +3266,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 804,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3327,7 +3327,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 805,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -3385,7 +3385,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 806,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -3443,7 +3443,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 807,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3502,7 +3502,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 808,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3580,7 +3580,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 901,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3637,7 +3637,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 902,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3694,7 +3694,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 903,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3755,7 +3755,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 904,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3816,7 +3816,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 905,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -3874,7 +3874,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 906,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -3932,7 +3932,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 907,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -3991,7 +3991,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 908,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4069,7 +4069,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 1001,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4126,7 +4126,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1002,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4183,7 +4183,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1003,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4244,7 +4244,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1004,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4305,7 +4305,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1005,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -4363,7 +4363,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1006,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -4421,7 +4421,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1007,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4480,7 +4480,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1008,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4558,7 +4558,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 1101,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4615,7 +4615,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1102,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4672,7 +4672,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1103,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4733,7 +4733,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1104,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4794,7 +4794,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1105,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -4852,7 +4852,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1106,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -4910,7 +4910,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1107,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -4969,7 +4969,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1108,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5047,7 +5047,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 1301,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5104,7 +5104,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1302,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5161,7 +5161,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1303,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5222,7 +5222,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1304,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5283,7 +5283,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1305,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -5341,7 +5341,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1306,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -5399,7 +5399,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1307,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5458,7 +5458,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1308,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5535,7 +5535,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 1401,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5592,7 +5592,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1402,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5649,7 +5649,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1403,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5710,7 +5710,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1404,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5771,7 +5771,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1405,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -5829,7 +5829,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1406,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -5887,7 +5887,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1407,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -5946,7 +5946,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1408,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6024,7 +6024,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 1501,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6081,7 +6081,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1502,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6138,7 +6138,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1503,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6199,7 +6199,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1504,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6260,7 +6260,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1505,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -6318,7 +6318,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1506,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -6376,7 +6376,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1507,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6435,7 +6435,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1508,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6513,7 +6513,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 1601,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6570,7 +6570,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1602,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6627,7 +6627,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1603,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6688,7 +6688,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1604,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6749,7 +6749,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1605,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -6807,7 +6807,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1606,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -6865,7 +6865,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1607,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -6924,7 +6924,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1608,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7001,7 +7001,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 1801,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7058,7 +7058,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1802,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7115,7 +7115,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1803,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7176,7 +7176,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1804,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7237,7 +7237,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1805,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -7295,7 +7295,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1806,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -7353,7 +7353,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1807,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7412,7 +7412,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1808,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7489,7 +7489,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 1901,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7546,7 +7546,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 1902,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7603,7 +7603,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 1903,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7664,7 +7664,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 1904,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7725,7 +7725,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 1905,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -7783,7 +7783,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 1906,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -7841,7 +7841,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 1907,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7900,7 +7900,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 1908,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -7978,7 +7978,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 2001,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8035,7 +8035,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2002,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8092,7 +8092,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2003,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8153,7 +8153,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2004,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8214,7 +8214,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2005,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -8272,7 +8272,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2006,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -8330,7 +8330,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2007,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8389,7 +8389,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2008,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8466,7 +8466,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 2101,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8523,7 +8523,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2102,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8580,7 +8580,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2103,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8641,7 +8641,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2104,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8702,7 +8702,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2105,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -8760,7 +8760,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2106,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -8818,7 +8818,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2107,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8877,7 +8877,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2108,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -8955,7 +8955,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 2301,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9012,7 +9012,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2302,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9069,7 +9069,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2303,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9130,7 +9130,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2304,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9191,7 +9191,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2305,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -9249,7 +9249,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2306,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -9307,7 +9307,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2307,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9366,7 +9366,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2308,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9444,7 +9444,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 2401,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9501,7 +9501,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2402,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9558,7 +9558,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2403,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9619,7 +9619,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2404,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9680,7 +9680,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2405,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -9738,7 +9738,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2406,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -9796,7 +9796,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2407,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9855,7 +9855,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2408,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9933,7 +9933,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 2501,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -9990,7 +9990,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2502,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10047,7 +10047,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2503,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10108,7 +10108,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2504,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10169,7 +10169,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2505,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -10227,7 +10227,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2506,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -10285,7 +10285,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2507,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10344,7 +10344,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2508,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10422,7 +10422,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 2601,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10479,7 +10479,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2602,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10536,7 +10536,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2603,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10597,7 +10597,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2604,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10658,7 +10658,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2605,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -10716,7 +10716,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2606,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -10774,7 +10774,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2607,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10833,7 +10833,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2608,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10910,7 +10910,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 2801,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -10967,7 +10967,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2802,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11024,7 +11024,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2803,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11085,7 +11085,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2804,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11146,7 +11146,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2805,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -11204,7 +11204,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2806,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -11262,7 +11262,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2807,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11321,7 +11321,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2808,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11399,7 +11399,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 2901,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11456,7 +11456,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 2902,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11513,7 +11513,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 2903,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11574,7 +11574,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 2904,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11635,7 +11635,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 2905,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -11693,7 +11693,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 2906,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -11751,7 +11751,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 2907,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11810,7 +11810,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 2908,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11889,7 +11889,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 3001,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -11946,7 +11946,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3002,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12003,7 +12003,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3003,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12064,7 +12064,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3004,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12125,7 +12125,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3005,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -12183,7 +12183,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3006,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -12241,7 +12241,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3007,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12300,7 +12300,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3008,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12378,7 +12378,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 3101,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12435,7 +12435,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3102,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12492,7 +12492,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3103,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12553,7 +12553,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3104,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12614,7 +12614,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3105,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -12672,7 +12672,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3106,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -12730,7 +12730,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3107,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12789,7 +12789,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3108,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12866,7 +12866,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 3301,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12923,7 +12923,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3302,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -12980,7 +12980,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3303,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13041,7 +13041,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3304,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13102,7 +13102,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3305,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -13160,7 +13160,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3306,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -13218,7 +13218,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3307,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13277,7 +13277,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3308,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13355,7 +13355,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 3401,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13412,7 +13412,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3402,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13469,7 +13469,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3403,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13530,7 +13530,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3404,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13591,7 +13591,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3405,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -13649,7 +13649,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3406,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -13707,7 +13707,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3407,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13766,7 +13766,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3408,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13844,7 +13844,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 3501,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13901,7 +13901,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3502,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -13958,7 +13958,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3503,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14019,7 +14019,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3504,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14080,7 +14080,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3505,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -14138,7 +14138,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3506,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -14196,7 +14196,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3507,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14255,7 +14255,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3508,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14333,7 +14333,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 3601,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14390,7 +14390,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3602,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14447,7 +14447,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3603,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14508,7 +14508,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3604,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14569,7 +14569,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3605,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -14627,7 +14627,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3606,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -14685,7 +14685,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3607,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14744,7 +14744,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3608,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14823,7 +14823,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 3801,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14880,7 +14880,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3802,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14937,7 +14937,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3803,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -14998,7 +14998,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3804,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15059,7 +15059,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3805,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -15117,7 +15117,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3806,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -15175,7 +15175,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3807,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15234,7 +15234,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3808,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15311,7 +15311,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 3901,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15368,7 +15368,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 3902,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15425,7 +15425,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 3903,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15486,7 +15486,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 3904,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15547,7 +15547,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 3905,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -15605,7 +15605,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 3906,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -15663,7 +15663,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 3907,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15722,7 +15722,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 3908,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15799,7 +15799,7 @@ export const floors = [
         },
         units: [
             {
-                id: 101,
+                id: 4001,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15856,7 +15856,7 @@ export const floors = [
             },
 
             {
-                id: 102,
+                id: 4002,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15913,7 +15913,7 @@ export const floors = [
             },
 
             {
-                id: 103,
+                id: 4003,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -15974,7 +15974,7 @@ export const floors = [
             },
 
             {
-                id: 104,
+                id: 4004,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -16035,7 +16035,7 @@ export const floors = [
             },
 
             {
-                id: 105,
+                id: 4005,
                 name: "Unit No-5",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -16093,7 +16093,7 @@ export const floors = [
             },
 
             {
-                id: 106,
+                id: 4006,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -16151,7 +16151,7 @@ export const floors = [
             },
 
             {
-                id: 107,
+                id: 4007,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -16210,7 +16210,7 @@ export const floors = [
             },
 
             {
-                id: 108,
+                id: 4008,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -16785,7 +16785,7 @@ export const floors = [
         },
         units: [
             {
-                id: 701,
+                id: 1201,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -16843,7 +16843,7 @@ export const floors = [
             },
 
             {
-                id: 702,
+                id: 1202,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -16901,7 +16901,7 @@ export const floors = [
             },
 
             {
-                id: 703,
+                id: 1203,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -16963,7 +16963,7 @@ export const floors = [
             },
 
             {
-                id: 704,
+                id: 1204,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17081,7 +17081,7 @@ export const floors = [
             // },
 
             {
-                id: 706,
+                id: 1206,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -17141,7 +17141,7 @@ export const floors = [
             },
 
             {
-                id: 707,
+                id: 1207,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17201,7 +17201,7 @@ export const floors = [
             },
 
             {
-                id: 708,
+                id: 1208,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17280,7 +17280,7 @@ export const floors = [
         },
         units: [
             {
-                id: 701,
+                id: 1701,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17338,7 +17338,7 @@ export const floors = [
             },
 
             {
-                id: 702,
+                id: 1702,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17396,7 +17396,7 @@ export const floors = [
             },
 
             {
-                id: 703,
+                id: 1703,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17458,7 +17458,7 @@ export const floors = [
             },
 
             {
-                id: 704,
+                id: 1704,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17576,7 +17576,7 @@ export const floors = [
             // },
 
             {
-                id: 706,
+                id: 1706,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -17636,7 +17636,7 @@ export const floors = [
             },
 
             {
-                id: 707,
+                id: 1707,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17696,7 +17696,7 @@ export const floors = [
             },
 
             {
-                id: 708,
+                id: 1708,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17775,7 +17775,7 @@ export const floors = [
         },
         units: [
             {
-                id: 701,
+                id: 2201,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17833,7 +17833,7 @@ export const floors = [
             },
 
             {
-                id: 702,
+                id: 2202,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17891,7 +17891,7 @@ export const floors = [
             },
 
             {
-                id: 703,
+                id: 2203,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -17953,7 +17953,7 @@ export const floors = [
             },
 
             {
-                id: 704,
+                id: 2204,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18071,7 +18071,7 @@ export const floors = [
             // },
 
             {
-                id: 706,
+                id: 2206,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -18131,7 +18131,7 @@ export const floors = [
             },
 
             {
-                id: 707,
+                id: 2207,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18191,7 +18191,7 @@ export const floors = [
             },
 
             {
-                id: 708,
+                id: 2208,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18271,7 +18271,7 @@ export const floors = [
         },
         units: [
             {
-                id: 701,
+                id: 2701,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18329,7 +18329,7 @@ export const floors = [
             },
 
             {
-                id: 702,
+                id: 2702,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18387,7 +18387,7 @@ export const floors = [
             },
 
             {
-                id: 703,
+                id: 2703,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18449,7 +18449,7 @@ export const floors = [
             },
 
             {
-                id: 704,
+                id: 2704,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18567,7 +18567,7 @@ export const floors = [
             // },
 
             {
-                id: 706,
+                id: 2706,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -18627,7 +18627,7 @@ export const floors = [
             },
 
             {
-                id: 707,
+                id: 2707,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18687,7 +18687,7 @@ export const floors = [
             },
 
             {
-                id: 708,
+                id: 2708,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18766,7 +18766,7 @@ export const floors = [
         },
         units: [
             {
-                id: 701,
+                id: 3201,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18824,7 +18824,7 @@ export const floors = [
             },
 
             {
-                id: 702,
+                id: 3202,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18882,7 +18882,7 @@ export const floors = [
             },
 
             {
-                id: 703,
+                id: 3203,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -18944,7 +18944,7 @@ export const floors = [
             },
 
             {
-                id: 704,
+                id: 3204,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19062,7 +19062,7 @@ export const floors = [
             // },
 
             {
-                id: 706,
+                id: 3206,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -19122,7 +19122,7 @@ export const floors = [
             },
 
             {
-                id: 707,
+                id: 3207,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19182,7 +19182,7 @@ export const floors = [
             },
 
             {
-                id: 708,
+                id: 3208,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19261,7 +19261,7 @@ export const floors = [
         },
         units: [
             {
-                id: 701,
+                id: 3701,
                 name: "Unit No-1",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19319,7 +19319,7 @@ export const floors = [
             },
 
             {
-                id: 702,
+                id: 3702,
                 name: "Unit No-2",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19377,7 +19377,7 @@ export const floors = [
             },
 
             {
-                id: 703,
+                id: 3703,
                 name: "Unit No-3",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19439,7 +19439,7 @@ export const floors = [
             },
 
             {
-                id: 704,
+                id: 3704,
                 name: "Unit No-4",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19557,7 +19557,7 @@ export const floors = [
             // },
 
             {
-                id: 706,
+                id: 3706,
                 name: "Unit No-6",
                 type: "2BHK",
                 size: "1400 sq.ft",
@@ -19617,7 +19617,7 @@ export const floors = [
             },
 
             {
-                id: 707,
+                id: 3707,
                 name: "Unit No-7",
                 type: "2 BHK",
                 size: "1400 sq.ft",
@@ -19677,7 +19677,7 @@ export const floors = [
             },
 
             {
-                id: 708,
+                id: 3708,
                 name: "Unit No-8",
                 type: "2 BHK",
                 size: "1400 sq.ft",
