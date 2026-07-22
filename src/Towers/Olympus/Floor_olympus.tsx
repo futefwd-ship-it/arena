@@ -17,7 +17,6 @@ export default function Floor_Olympus() {
     const [hoveredUnit,
         setHoveredUnit
     ] = useState<number | null>(null);
-    const [selectedUnit, setSelectedUnit] = useState<number | null>(null);
     const [zoomOpen, setZoomOpen] = useState(false);
     const [image3DOpen, setImage3DOpen] = useState(false);
 
@@ -67,13 +66,11 @@ export default function Floor_Olympus() {
                         <ul key={unit.id}>
                             <li
                                 className={`
-                cursor-pointer transition-transform duration-200 mt-2 flex p-1 rounded-sm justify-between border-b pb-2 text-[12px]
-                ${selectedUnit === unit.id || hoveredUnit === unit.id ? "scale-105 bg-slate-200" : "scale-100"}
+                 transition-transform duration-200 mt-2 flex p-1 rounded-sm justify-between border-b pb-2 text-[12px]
+                 ${hoveredUnit === unit.id ? "scale-105 bg-slate-200" : "scale-100"}
             `}
                                 onMouseEnter={() => setHoveredUnit(unit.id)}
                                 onMouseLeave={() => setHoveredUnit(null)}
-                                // onClick={() => setSelectedUnit(prev => prev === unit.id ? null : unit.id)}
-                                onDoubleClick={() => navigate(`/arena_unitolympus/${unit.id}`)}
                             >
                                 <p>{unit.name}</p> <p>{unit.type}</p>
                             </li>
@@ -121,7 +118,7 @@ export default function Floor_Olympus() {
                             arrow
                             placement="top"
                             // Controlled visibility for Tablet stability
-                            open={selectedUnit === unit.id || hoveredUnit === unit.id}
+                            open={hoveredUnit === unit.id}
                             disableHoverListener={false}
                             disableTouchListener={false}
                             enterTouchDelay={0}
@@ -132,20 +129,12 @@ export default function Floor_Olympus() {
                         >
                             <polygon
                                 points={unit.polygonPoints}
-                                // fill={
-                                //     (selectedUnit === unit.id || hoveredUnit === unit.id)
-                                //         ? unit.hoverColor || "rgba(253, 175, 23, 0.4)"
-                                //         : "transparent"
-                                // }
                                 fill={
                                     hoveredUnit === unit.id
                                         ? unit.hoverColor || "rgba(253, 175, 23, 0.4)"
-                                        : selectedUnit === unit.id
-                                            ? unit.hoverColor || "rgba(253, 175, 23, 0.4)"
-                                            : "transparent"
+                                        : "transparent"
                                 }
                                 style={{
-                                    cursor: "pointer",
                                     touchAction: "manipulation",
                                     outline: "none" // Removes the blue outline box on some tablets
                                 }}
@@ -157,10 +146,6 @@ export default function Floor_Olympus() {
                                     e.stopPropagation();
                                     setHoveredUnit(null);
                                 }}
-                                // onClick={(e) => {
-                                //     e.stopPropagation();
-                                //     setSelectedUnit(prev => prev === unit.id ? null : unit.id);
-                                // }}
                                 onDoubleClick={() => navigate(`/arena_unitolympus/${unit.id}`)}
                             />
                         </Tooltip>

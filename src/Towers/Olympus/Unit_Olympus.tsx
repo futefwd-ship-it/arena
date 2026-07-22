@@ -15,8 +15,7 @@ export default function Unit_Olympus() {
 
     const [activeLayout, setActiveLayout] = useState<LayoutType>("default");
     const [zoomOpen, setZoomOpen] = useState(false);
-    const [clickedRoomDefault, setClickedRoomDefault] = useState<number | null>(null);
-    const [clickedRoom2D, setClickedRoom2D] = useState<number | null>(null);
+
     const [hoveredRoom, setHoveredRoom] = useState<number | null>(null);
 
     // Reference to the image container to calculate relative tooltip positions
@@ -49,8 +48,7 @@ export default function Unit_Olympus() {
 
     useEffect(() => {
         setSvgTooltip(null);
-        setClickedRoomDefault(null);
-        setClickedRoom2D(null);
+
         setHoveredRoom(null);
     }, [activeLayout]);
 
@@ -59,40 +57,6 @@ export default function Unit_Olympus() {
         if (activeLayout === "2Dstatic") return singleUnit.image2Dstatic;
         return singleUnit.unitimage;
     };
-
-    // Logic to calculate tooltip position relative to the container
-    const handlePolygonClick = (e: React.MouseEvent, room: any, layout: "default" | "2D") => {
-        e.stopPropagation();
-        if (containerRef.current) {
-            const rect = containerRef.current.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-
-            if (layout === "default") setClickedRoomDefault(room.id);
-            else setClickedRoom2D(room.id);
-
-            setSvgTooltip({
-                id: room.id,
-                x: x,
-                y: y,
-                name: room.name,
-                size: room.size,
-            });
-
-        }
-
-
-
-
-
-        // Determine which image to show in center (for normal view and zoom)
-        // const getActiveImage = () => {
-        //   if (activeLayout === "2D") return singleUnit.image2D;
-        //   // if (activeLayout === "3D") return singleUnit.image3D;
-        //   if (activeLayout === "2Dstatic") return singleUnit.image2Dstatic;
-        //   return singleUnit.unitimage; // default
-        // };
-    }
 
     const handleMouseEnter = (e: React.MouseEvent, room: any) => {
         setHoveredRoom(room.id);
@@ -109,6 +73,7 @@ export default function Unit_Olympus() {
             });
         }
     };
+
 
     const handleMouseLeave = () => {
         setHoveredRoom(null);
@@ -162,10 +127,7 @@ export default function Unit_Olympus() {
 
                                  if (hoveredRoom === room.id) {
                                      bgClass = "bg-[rgba(184,38,217,0.9)] text-white";
-                                 } else if (isDefaultLayout && clickedRoomDefault === room.id) {
-                                     bgClass = "bg-[rgba(184,38,217,0.9)] text-white";
-                                 } else if (is2DLayout && clickedRoom2D === room.id) {
-                                     bgClass = "bg-[rgba(184,38,217,0.9)] text-white";
+
                                  }
 
                                  return (
@@ -173,13 +135,7 @@ export default function Unit_Olympus() {
                                          key={room.id}
                                          onMouseEnter={() => setHoveredRoom(room.id)}
                                          onMouseLeave={() => setHoveredRoom(null)}
-                                         onClick={() => {
-                                             if (isDefaultLayout) {
-                                                 setClickedRoomDefault(prev => prev === room.id ? null : room.id);
-                                             } else {
-                                                 setClickedRoom2D(prev => prev === room.id ? null : room.id);
-                                             }
-                                         }}
+
                                          className={`${bgClass} transition-all mb-1 ease-in-out duration-300 p-2 border rounded-lg flex justify-between items-center cursor-pointer`}
                                      >
                                         <h4 className="font-semibold text-[13px]">{room.name}</h4>
@@ -212,18 +168,16 @@ export default function Unit_Olympus() {
                                 preserveAspectRatio="xMidYMid meet"
                                 onClick={() => setSvgTooltip(null)}
                             >
-                                {(activeLayout === "default" ? singleUnit.rooms : singleUnit.roomstatic)?.map((room: any) => (
-                                    <polygon
-                                        key={room.id}
-                                        points={room.polygon}
-                                        fill={(hoveredRoom === room.id || (activeLayout === "default" ? clickedRoomDefault : clickedRoom2D) === room.id)
-                                            ? "rgba(184, 38, 217, 0.4)" : "transparent"}
-                                        className="transition-colors duration-300 cursor-pointer focus:outline-none outline-none"
-                                        onMouseEnter={(e) => handleMouseEnter(e, room)}
-                                        onMouseLeave={handleMouseLeave}
-                                        onClick={(e) => handlePolygonClick(e, room, activeLayout as any)}
-                                    />
-                                ))}
+                                 {(activeLayout === "default" ? singleUnit.rooms : singleUnit.roomstatic)?.map((room: any) => (
+                                     <polygon
+                                         key={room.id}
+                                         points={room.polygon}
+                                         fill={hoveredRoom === room.id ? "rgba(184, 38, 217, 0.4)" : "transparent"}
+                                         className="transition-colors duration-300 cursor-pointer focus:outline-none outline-none"
+                                         onMouseEnter={(e) => handleMouseEnter(e, room)}
+                                         onMouseLeave={handleMouseLeave}
+                                     />
+                                 ))}
                             </svg>
                         )}
 

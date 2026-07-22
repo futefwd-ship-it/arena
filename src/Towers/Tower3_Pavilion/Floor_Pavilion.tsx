@@ -72,12 +72,13 @@ export default function Floor_Pavilion() {
             `}
                                 // onMouseEnter={() => setHoveredUnit(unit.id)}
                                 // onMouseLeave={() => setHoveredUnit(null)}
-                                onDoubleClick={() => setSelectedUnit(unit.id)}
-                            // onClick={(e) => {
-                            //     e.stopPropagation();
-                            //     // Toggle selection: if already selected, close it; otherwise, select new.
-                            //     setSelectedUnit(prev => prev === unit.id ? null : unit.id);
-                            // }}
+                                onMouseEnter={() => setHoveredUnit(unit.id)}
+                                onMouseLeave={() => setHoveredUnit(null)}
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                    // Toggle selection: if already selected, close it; otherwise, select new.
+                                    setSelectedUnit(prev => prev === unit.id ? null : unit.id);
+                                }}
                             >
                                 <p>{unit.name}</p> <p>{unit.type}</p>
                             </li>
@@ -155,13 +156,10 @@ export default function Floor_Pavilion() {
                                 }}
                                 onMouseEnter={(e) => {
                                     e.stopPropagation();
-                                     setSelectedUnit(null); 
-                                    // Toggle selection: if already selected, close it; otherwise, select new.
-                                    setHoveredUnit(prev => prev === unit.id ? null : unit.id);
+                                    setHoveredUnit(unit.id);
                                 }}
                                 onMouseLeave={(e) => {
                                     e.stopPropagation();
-                                    // Toggle selection: if already selected, close it; otherwise, select new.
                                     setHoveredUnit(null);
                                 }}
                                 onClick={(e) => {

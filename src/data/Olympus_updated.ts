@@ -148,9 +148,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -392,7 +393,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -450,7 +451,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -638,9 +639,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -882,7 +884,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -940,7 +942,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -1128,9 +1130,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -1372,7 +1375,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -1430,7 +1433,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -1618,9 +1621,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -1862,7 +1866,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -1920,7 +1924,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -2107,9 +2111,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -2351,7 +2356,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -2409,7 +2414,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -2596,9 +2601,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -2840,7 +2846,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -2898,7 +2904,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -3085,9 +3091,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -3329,7 +3336,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -3387,7 +3394,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -3574,9 +3581,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -3818,7 +3826,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -3876,7 +3884,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -4063,9 +4071,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -4307,7 +4316,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -4365,7 +4374,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -4552,9 +4561,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -4796,7 +4806,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -4854,7 +4864,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -5041,9 +5051,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -5285,7 +5296,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -5343,7 +5354,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -5529,9 +5540,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -5773,7 +5785,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -5831,7 +5843,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -6018,9 +6030,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -6262,7 +6275,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -6320,7 +6333,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -6507,9 +6520,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -6751,7 +6765,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -6809,7 +6823,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -6995,9 +7009,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -7239,7 +7254,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -7297,7 +7312,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -7483,9 +7498,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -7727,7 +7743,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -7785,7 +7801,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -7972,9 +7988,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -8216,7 +8233,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -8274,7 +8291,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -8460,9 +8477,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -8704,7 +8722,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -8762,7 +8780,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -8949,9 +8967,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -9193,7 +9212,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -9251,7 +9270,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -9438,9 +9457,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -9682,7 +9702,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -9740,7 +9760,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -9927,9 +9947,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -10171,7 +10192,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -10229,7 +10250,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -10416,9 +10437,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -10660,7 +10682,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -10718,7 +10740,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -10904,9 +10926,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -11148,7 +11171,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -11206,7 +11229,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -11393,9 +11416,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -11637,7 +11661,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -11695,7 +11719,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -11883,9 +11907,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -12127,7 +12152,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -12185,7 +12210,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -12372,9 +12397,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -12616,7 +12642,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -12674,7 +12700,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -12860,9 +12886,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -13104,7 +13131,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -13162,7 +13189,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -13349,9 +13376,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -13593,7 +13621,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -13651,7 +13679,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -13838,9 +13866,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -14082,7 +14111,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -14140,7 +14169,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -14327,9 +14356,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -14571,7 +14601,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -14629,7 +14659,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -14817,9 +14847,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -15061,7 +15092,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -15119,7 +15150,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -15305,9 +15336,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -15549,7 +15581,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -15607,7 +15639,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -15793,9 +15825,10 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+            // threeBHK: { bgColor: "#00ffe5", text: "4BHK GRANDE" },
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
-            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+
+            twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" }
         },
         units: [
             {
@@ -16037,7 +16070,7 @@ export const floors = [
             {
                 id: 105,
                 name: "Unit No-5",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -16095,7 +16128,7 @@ export const floors = [
             {
                 id: 106,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -16284,9 +16317,11 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
+
             twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" },
         },
         units: [
             {
@@ -16588,7 +16623,7 @@ export const floors = [
             {
                 id: 706,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -16779,9 +16814,11 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
+
             twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" },
         },
         units: [
             {
@@ -17083,7 +17120,7 @@ export const floors = [
             {
                 id: 706,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -17274,9 +17311,11 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
+
             twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" },
         },
         units: [
             {
@@ -17578,7 +17617,7 @@ export const floors = [
             {
                 id: 706,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -17769,9 +17808,11 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
+
             twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" },
         },
         units: [
             {
@@ -18073,7 +18114,7 @@ export const floors = [
             {
                 id: 706,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -18265,9 +18306,11 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
+
             twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" },
         },
         units: [
             {
@@ -18569,7 +18612,7 @@ export const floors = [
             {
                 id: 706,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -18760,9 +18803,11 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
+
             twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" },
         },
         units: [
             {
@@ -19064,7 +19109,7 @@ export const floors = [
             {
                 id: 706,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
@@ -19255,9 +19300,11 @@ export const floors = [
             imageHeight: "2813",
         },
         buttonSettings: {
+
             fourBHK: { bgColor: "#eca9f7", text: "2BHK GRANDE" },
+
             twoBHK: { bgColor: "rgba(255, 215, 0, 0.9)", text: "2BHK SIGNATURE" },
-            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" }
+            threeBHK: { bgColor: "#00ffe5", text: "2BHK PRESIDENTIA" },
         },
         units: [
             {
@@ -19559,7 +19606,7 @@ export const floors = [
             {
                 id: 706,
                 name: "Unit No-6",
-                type: "2BHK",
+                type: "2BHK PRESIDENTIA",
                 size: "1400 sq.ft",
                 hoverColor: "rgba(0, 255, 229, 0.4)",
 
