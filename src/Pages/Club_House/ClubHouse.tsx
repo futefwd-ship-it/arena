@@ -113,6 +113,7 @@ export default function ClubHouse() {
                                 <img
                                     key={e.id}
                                     src={e.image}
+                                    alt={`Club House view ${e.id}`}
                                     className="w-full h-[50%] md:h-[400px] lg:h-[650px] object-cover "
                                 />
                             )),

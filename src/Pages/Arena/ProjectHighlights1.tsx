@@ -1,4 +1,4 @@
-/*eslint-disable*/
+ 
 
 
 import gallery9 from "../../assets/gallery/gallery9.webp";

@@ -15,14 +15,14 @@ export default function PureSlider({ slides = [], interval = 3800 }: PureSliderP
     useEffect(() => {
         if (paused) return;
 
-        let timer: any;
+        let timer: ReturnType<typeof setTimeout> | undefined;
 
 
 
         if (index === 0 && videoRef.current) {
             const iframe = videoRef.current;
             const handleWistiaReady = () => {
-                // @ts-ignore
+                // @ts-expect-error - Wistia is injected globally by an external script and has no type definitions
                 const wistiaEmbed = window.Wistia?.embed(iframe);
                 if (wistiaEmbed) {
                     wistiaEmbed.bind("end", () => {
@@ -56,7 +56,7 @@ export default function PureSlider({ slides = [], interval = 3800 }: PureSliderP
             >
                 {slides.map((slide, i) => (
                     <div key={i} className="min-w-full">
-                        {i === 0 ? React.cloneElement(slide as any, { ref: videoRef }) : slide}
+                        {i === 0 ? React.cloneElement(slide as React.ReactElement<{ ref?: React.Ref<HTMLIFrameElement> }>, { ref: videoRef }) : slide}
                     </div>
                 ))}
             </div>

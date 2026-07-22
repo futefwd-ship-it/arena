@@ -4,24 +4,12 @@ import bgImage from '../../assets/stadia_updated.png';
 import { IoReturnUpBackOutline } from "react-icons/io5";
 
 import { useNavigate } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Tooltip } from 'react-tooltip';
 import { floorsData, description } from '../../data/StadiaData';
 export default function Pavilion() {
   const navigate = useNavigate();
   const [hoveredId, setHoveredId] = useState<number | null>(null);
-
-  const [isLargeScreen, setIsLargeScreen] = useState(true);
-
-  useEffect(() => {
-    const checkWidth = () => setIsLargeScreen(window.innerWidth >= 1024);
-
-    // Initial check
-    checkWidth();
-
-    window.addEventListener("resize", checkWidth);
-    return () => window.removeEventListener("resize", checkWidth);
-  }, []);
 
   const handleBack = () => navigate(-1);
   return (

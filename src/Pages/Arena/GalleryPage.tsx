@@ -7,13 +7,6 @@ import 'react-18-image-lightbox/style.css';
 // import { RiArrowGoBackFill } from "react-icons/ri";
 // import { TfiBackRight } from "react-icons/tfi";
 
-// ---------- Types ----------
-interface ImageType {
-  src: string;
-  title?: string;
-
-}
-
 // ---------- Replace these imports with your actual images ----------
 import interior1 from "../../assets/gallery/interior1.webp";
 import interior2 from "../../assets/gallery/interior2.webp";
@@ -74,11 +67,6 @@ import sports7 from "../../assets/gallery/sports7.webp";
 import { MdNavigateBefore, MdNavigateNext, MdPause, MdPlayArrow } from "react-icons/md";
 
 
-declare const InteriorImages: ImageType[];
-declare const ElevationImages: ImageType[];
-declare const LandscapeImages: ImageType[];
-declare const gallery9: string;
-declare const back: string;
 // ---------------------------------------------------------------
 const tabs = ["Interior", "Elevation", "Landscape"] as const;
 

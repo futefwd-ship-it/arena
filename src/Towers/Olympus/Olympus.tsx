@@ -5,10 +5,11 @@ import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { Tooltip } from 'react-tooltip';
 import { floorsData, description } from '../../data/Olympus';
+import type { FloorHotspot } from '../../types/room';
 
 export default function Olympus() {
   const navigate = useNavigate();
-  const [hoveredFloor, setHoveredFloor] = useState<any>(null);
+  const [hoveredFloor, setHoveredFloor] = useState<FloorHotspot | null>(null);
 
 
 
@@ -94,7 +95,7 @@ export default function Olympus() {
         aria-hidden="true"
       >
         <defs>
-          {floorsData.map((f: any) => (
+          {floorsData.map((f: FloorHotspot) => (
             <linearGradient
               key={`gradient-${f.id}`}
               id={`gradient-${f.id}`}
@@ -114,7 +115,7 @@ export default function Olympus() {
           ))}
         </defs>
 
-        {floorsData.map((floor: any, _index) => {
+        {floorsData.map((floor: FloorHotspot) => {
           const isActive = hoveredFloor?.id === floor.id
           // || selectedRow === index;
           return (
@@ -142,7 +143,7 @@ export default function Olympus() {
         })}
       </svg>
 
-      {floorsData.map((floor: any, _index) => {
+      {floorsData.map((floor: FloorHotspot) => {
         return (<Tooltip
           id={`tooltip-${floor.id}`}
           place="left"

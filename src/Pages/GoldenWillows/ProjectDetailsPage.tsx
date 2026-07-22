@@ -6,8 +6,8 @@ import { useState } from 'react';
 import {data} from '../../data/GoldenWillowsData';
 export default function ProjectDetailsPage() {
     const navigate = useNavigate();
-    const [selectedFloor, setSelectedFloor] = useState<Number | null>(null);
-    const [hoveredFloor, setHoveredFloor] = useState<Number | null>(null);
+    const [selectedFloor, setSelectedFloor] = useState<number | null>(null);
+    const [hoveredFloor, setHoveredFloor] = useState<number | null>(null);
    
     return (<>
       <div className="flex h-screen overflow-hidden flex-col md:flex-row justify-center items-center relative">

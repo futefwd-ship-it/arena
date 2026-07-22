@@ -76,8 +76,8 @@ export default function ProjectDetails() {
         }
     ]
 
-    const [selectedFloor, setSelectedFloor] = useState<Number | null>(null);
-    const [hoveredFloor, setHoveredFloor] = useState<Number | null>(null);
+    const [selectedFloor, setSelectedFloor] = useState<number | null>(null);
+    const [hoveredFloor, setHoveredFloor] = useState<number | null>(null);
 
     return (<>
         <div
