@@ -11,13 +11,15 @@ import floorunit4 from '../assets/stadia/Typical/iso3D/FLAT 4 ISO.jpg';
 // unit-1 2D and 3D
 import floorunit2D1 from '../assets/stadia/Typical/staticmain2D/FLAT 11.jpg';
 
-import floorunit2D11 from '../assets/stadia/Typical/static2D/FLAT 1.jpg';
+// import floorunit2D11 from '../assets/stadia/Typical/static2D/FLAT 1.jpg';
+import floorunit2D11 from '../assets/stadia/Typical/static2D/FLAT 1_new.jpg';
 import floorunit3D1 from '../assets/Towers/type-1/Units/3D/FLAT1.jpg';
 
 // unit-2 2D and 3D
 import floorunit2D2 from '../assets/stadia/Typical/staticmain2D/FLAT 22.jpg';
 
-import floorunit2D22 from '../assets/stadia/Typical/static2D/FLAT 2.jpg';
+// import floorunit2D22 from '../assets/stadia/Typical/static2D/FLAT 2.jpg';
+import floorunit2D22 from '../assets/stadia/Typical/static2D/FLAT 2_new.jpg';
 import floorunit3D2 from '../assets/Towers/type-1/Units/3D/FLAT2.jpg';
 
 // unit-3 2D and 3D
